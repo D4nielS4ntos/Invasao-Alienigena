@@ -1,0 +1,245 @@
+----------------------------------------
+Numero do teste: 1
+Nivel: 1
+Pontuacao alcancada: 450
+----------------------------------------
+----------------------------------------
+Numero do teste: 2
+Nivel: 14
+Pontuacao alcancada: 1182036
+----------------------------------------
+----------------------------------------
+Numero do teste: 3
+Nivel: 3
+Pontuacao alcancada: 1250
+----------------------------------------
+----------------------------------------
+Numero do teste: 4
+Nivel: 7
+Pontuacao alcancada: 26884
+Aliens mortos: 47.41446208112875
+----------------------------------------
+----------------------------------------
+Numero do teste: 5
+Nivel: 6
+Pontuacao alcancada: 15978
+Aliens mortos: 42.26984126984127
+Tiros disparados: 137682
+----------------------------------------
+----------------------------------------
+Numero do teste: 6
+Nivel: 1
+Pontuacao alcancada: 150
+Aliens mortos: 3.0
+Tiros disparados: 19768
+----------------------------------------
+----------------------------------------
+Numero do teste: 7
+Nivel: 1
+Pontuacao alcancada: 200
+Aliens mortos: 4.0
+Tiros disparados: 2292
+----------------------------------------
+----------------------------------------
+Numero do teste: 8
+Nivel: 1
+Pontuacao alcancada: 200
+Aliens mortos: 4.0
+Tiros disparados: 5
+----------------------------------------
+----------------------------------------
+Numero do teste: 9
+Nivel: 2
+Pontuacao alcancada: 500
+Aliens mortos: 6.666666666666667
+Tiros disparados: 34
+----------------------------------------
+----------------------------------------
+Numero do teste: 10
+Nivel: 5
+Pontuacao alcancada: 6850
+Aliens mortos: 27.182539682539684
+Tiros disparados: 225
+----------------------------------------
+----------------------------------------
+Numero do teste: 11
+Nivel: 3
+Pontuacao alcancada: 1850
+Aliens mortos: 28
+Tiros disparados: 127
+----------------------------------------
+----------------------------------------
+Numero do teste: 12
+Nivel: 7
+Pontuacao alcancada: 26871
+Alienigenas mortos: 118
+Tiros disparados: 377
+----------------------------------------
+----------------------------------------
+Numero do teste: 13
+Nivel: 7
+Pontuacao alcancada: 27206
+Alienigenas mortos: 128
+Tiros disparados: 362
+----------------------------------------
+----------------------------------------
+Numero do teste: 14
+Nivel: 8
+Pontuacao alcancada: 500
+Alienigenas mortos: 138
+Tiros disparados: 397
+----------------------------------------
+----------------------------------------
+Numero do teste: 15
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 16
+Nivel: 5
+Pontuacao alcancada: 8614
+Alienigenas mortos: 65
+Tiros disparados: 197
+----------------------------------------
+----------------------------------------
+Numero do teste: 17
+Nivel: 2
+Pontuacao alcancada: 1175
+Alienigenas mortos: 19
+Tiros disparados: 61
+----------------------------------------
+----------------------------------------
+Numero do teste: 18
+Nivel: 2
+Pontuacao alcancada: 500
+Alienigenas mortos: 10
+Tiros disparados: 59
+----------------------------------------
+----------------------------------------
+Numero do teste: 19
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 20
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 21
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 22
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 23
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 24
+Nivel: 13
+Pontuacao alcancada: 503163
+Alienigenas mortos: 341
+Tiros disparados: 753
+----------------------------------------
+----------------------------------------
+Numero do teste: 25
+Nivel: 9
+Pontuacao alcancada: 123230
+Alienigenas mortos: 231
+Tiros disparados: 507
+----------------------------------------
+----------------------------------------
+Numero do teste: 26
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 27
+Nivel: 1
+Pontuacao alcancada: 1000
+Alienigenas mortos: 20
+Tiros disparados: 80
+----------------------------------------
+----------------------------------------
+Numero do teste: 28
+Nivel: 7
+Pontuacao alcancada: 47863
+Alienigenas mortos: 159
+Tiros disparados: 415
+----------------------------------------
+----------------------------------------
+Numero do teste: 29
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 30
+Nivel: 9
+Pontuacao alcancada: 123230
+Alienigenas mortos: 231
+Tiros disparados: 551
+----------------------------------------
+----------------------------------------
+Numero do teste: 31
+Nivel: 9
+Pontuacao alcancada: 123230
+Alienigenas mortos: 231
+Tiros disparados: 514
+----------------------------------------
+----------------------------------------
+Numero do teste: 32
+Nivel: 9
+Pontuacao alcancada: 123230
+Alienigenas mortos: 221
+Tiros disparados: 523
+----------------------------------------
+----------------------------------------
+Numero do teste: 33
+Nivel: 9
+Pontuacao alcancada: 123230
+Alienigenas mortos: 223
+Tiros disparados: 454
+----------------------------------------
+----------------------------------------
+Numero do teste: 34
+Nivel: 9
+Pontuacao alcancada: 123230
+Alienigenas mortos: 221
+Tiros disparados: 522
+----------------------------------------
+----------------------------------------
+Numero do teste: 35
+Nivel: 25
+Pontuacao alcancada: 89557547
+Alienigenas mortos: 767
+Tiros disparados: 1382
+----------------------------------------
+----------------------------------------
+Numero do teste: 36
+Nivel: 26
+Pontuacao alcancada: 97505304
+Alienigenas mortos: 822
+Tiros disparados: 1591
+----------------------------------------
