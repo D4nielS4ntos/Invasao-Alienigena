@@ -243,3 +243,10 @@ Pontuacao alcancada: 97505304
 Alienigenas mortos: 822
 Tiros disparados: 1591
 ----------------------------------------
+----------------------------------------
+Numero do teste: 37
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------

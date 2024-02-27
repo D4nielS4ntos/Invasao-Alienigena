@@ -57,5 +57,5 @@ class Nave(Sprite):
             self.ai_settings.bullet_color = (255, 0, 0)
             
             som_powerup = pygame.mixer.music
-            som_powerup.load('music/powerUp.wav')
+            som_powerup.load('sons/powerUp.wav')
             som_powerup.play()

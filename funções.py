@@ -70,7 +70,7 @@ def check_play_button(ai_settings, screen, nave, disparos, alienigenas, stats, p
         criar_frota(ai_settings, screen, stats, nave, alienigenas) 
         nave.centrar_nave()
         # Som de start
-        pygame.mixer.music.load('music/game-start-6104.mp3')
+        pygame.mixer.music.load('sons/game-start-6104.mp3')
         pygame.mixer.music.play()
 
 
@@ -130,6 +130,9 @@ def checar_pontuacao_maxima(stats, tabelapontos):
     if stats.score > stats.high_score: 
         stats.high_score = stats.score
         tabelapontos.prep_high_score()
+        # Som de pontuação
+        pygame.mixer.music.load('sons/recorde.wav')
+        pygame.mixer.music.play()
 
 
 def checar_colisao_alienigena_disparo(ai_settings, screen, disparos, alienigenas, nave, stats, tabelapontos, disparos_alienigenas):
@@ -142,7 +145,8 @@ def checar_colisao_alienigena_disparo(ai_settings, screen, disparos, alienigenas
             tabelapontos.prep_score()
             checar_pontuacao_maxima(stats, tabelapontos)
         # Som de pontuação
-        pygame.mixer.music.load('music/pickupCoin.wav')
+        pygame.mixer.music.load('sons/pickupCoin.wav')
+        pygame.mixer.music.set_volume(0.75)
         pygame.mixer.music.play()
     # teste
     if pygame.sprite.spritecollideany(nave, disparos_alienigenas): 
@@ -289,7 +293,7 @@ def nave_colidir(ai_settings, screen, stats, nave, alienigenas, disparos, tabela
         pygame.mouse.set_visible(True)
     if stats.ships_left != 1:
         som_colisao = pygame.mixer.music
-        som_colisao.load('music/collision.wav')
+        som_colisao.load('sons/collision.wav')
         som_colisao.play()
 
 
