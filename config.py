@@ -62,9 +62,9 @@ class Config:
         
 
     def increase_speed(self): 
-        self.alien_speed_factor *= self.speed_up_scale
-        self.alien_points = int(self.alien_points * self.score_scale)
-        self.alien_speed_in_stage_game *= self.speed_up_scale # Velocidade que inicia o nível
-        self.level += 1
         # A velocidade para de aumentar a partir do level 10
-        if self.level == 10: self.speed_up_scale = 1
+        if self.level <= 10: 
+            self.alien_speed_factor *= self.speed_up_scale
+            self.alien_points = int(self.alien_points * self.score_scale)
+            self.alien_speed_in_stage_game *= self.speed_up_scale # Velocidade que inicia o nível
+            self.level += 1

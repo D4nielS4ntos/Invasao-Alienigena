@@ -48,11 +48,19 @@ class TabelaPontos:
 
     def prep_ships(self):
         self.ships = Group()
-        for ship_number in range(self.stats.ships_left):
+        for ship_number in range(self.ai_settings.ship_limit):
             ship = Nave(self.ai_settings, self.screen, self.stats)
             ship.rect.x = 10 + ship_number * ship.rect.width
             ship.rect.y = 10
-            self.ships.add(ship)
+            if ship_number < self.stats.ships_left:
+                self.ships.add(ship)
+            else:
+                ship_explosion = Nave(self.ai_settings, self.screen, self.stats)
+                ship_explosion.image = pygame.image.load('imagens/Explosão.png')
+                ship_explosion.rect.x = 10 + ship_number * ship.rect.width
+                ship_explosion.rect.y = 10
+                self.ships.add(ship_explosion)
+
 
     def show_score(self):
         self.screen.blit(self.score_image, self.score_rect)

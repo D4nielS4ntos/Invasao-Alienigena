@@ -250,3 +250,185 @@ Pontuacao alcancada: 0
 Alienigenas mortos: 0
 Tiros disparados: 0
 ----------------------------------------
+----------------------------------------
+Numero do teste: 38
+Nivel: 2
+Pontuacao alcancada: 525
+Alienigenas mortos: 10
+Tiros disparados: 21
+----------------------------------------
+----------------------------------------
+Numero do teste: 39
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 40
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 41
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 42
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 43
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 44
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 45
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 46
+Nivel: 3
+Pontuacao alcancada: 1125
+Alienigenas mortos: 18
+Tiros disparados: 41
+----------------------------------------
+----------------------------------------
+Numero do teste: 47
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 48
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 49
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 50
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 51
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 52
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 53
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 54
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 55
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 56
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 57
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 58
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 59
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 60
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 61
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 62
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 63
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------

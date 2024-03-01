@@ -4,6 +4,7 @@ from random import randint
 
 import pygame
 
+from classes.nave import Nave
 from classes.disparo import Disparo, Disparo_alienigena
 from classes.alienigena import Alienigena
 from classes.bomba import Bomba
@@ -287,6 +288,7 @@ def nave_colidir(ai_settings, screen, stats, nave, alienigenas, disparos, tabela
         nave.centrar_nave()
         sleep(0.5)
     else:
+        nave.image = pygame.image.load('imagens/Explosão.png')
         stats.registrar_tabela_json()
         stats.registrar_partida()
         stats.game_active = False
@@ -299,18 +301,19 @@ def nave_colidir(ai_settings, screen, stats, nave, alienigenas, disparos, tabela
 
 def atualizar_velocidade_alienigenas(ai_settings, quantidade_alienigenas, total_number_aliens):
     # Faz parte de checar_quantidade_alienigenas
-    if quantidade_alienigenas <= (total_number_aliens * 0.9):
-        ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 0.25
-    elif quantidade_alienigenas <= (total_number_aliens * 0.75):
-        ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 0.5
-    elif quantidade_alienigenas <= (total_number_aliens * 0.5):
-        ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 0.75
-    elif quantidade_alienigenas <= (total_number_aliens * 0.25):
-        ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 1
-    elif quantidade_alienigenas <= (total_number_aliens * 0.1):
-        ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 2
-    elif quantidade_alienigenas == 1:
-        ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 3
+    if ai_settings.alienigenas == True:
+        if quantidade_alienigenas <= (total_number_aliens * 0.9) and ai_settings.alien_speed_factor <= ai_settings.alien_speed_in_stage_game + 0.25:
+            ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 0.5
+        elif quantidade_alienigenas <= (total_number_aliens * 0.75) and ai_settings.alien_speed_factor <= ai_settings.alien_speed_in_stage_game + 0.5:
+            ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 1
+        elif quantidade_alienigenas <= (total_number_aliens * 0.5) and ai_settings.alien_speed_factor <= ai_settings.alien_speed_in_stage_game + 0.75:
+            ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 1.5
+        elif quantidade_alienigenas <= (total_number_aliens * 0.25) and ai_settings.alien_speed_factor <= ai_settings.alien_speed_in_stage_game + 1:
+            ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 2
+        elif quantidade_alienigenas <= (total_number_aliens * 0.1) and quantidade_alienigenas != 1 and ai_settings.alien_speed_factor <= ai_settings.alien_speed_in_stage_game + 2:
+            ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 3
+        elif quantidade_alienigenas == 1 and ai_settings.alien_speed_factor <= ai_settings.alien_speed_in_stage_game + 3:
+            ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 5
 
 
 def checar_quantidade_alienigenas(ai_settings, screen, stats, nave, alienigenas, disparos, tabelapontos, disparos_alienigenas):

@@ -13,8 +13,8 @@ class Nave(Sprite):
         self.screen = screen
         self.stats = stats
         # Imagem
-        self.atual = 0
-        self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.atual)}.png')
+        self.imagem_atual = 0
+        self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.imagem_atual)}.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.centerx = self.screen_rect.centerx
@@ -32,13 +32,15 @@ class Nave(Sprite):
     def update(self):
     # Atualiza a posição da nave
         if randint(1, 5) == 5:
-            self.atual += 0.1
-        if self.atual > 15:
-            self.atual = 0
-        elif self.atual >= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.atual)}.png')
+            self.imagem_atual += 0.1
+        if self.imagem_atual > 15:
+            self.imagem_atual = 0
+        elif self.imagem_atual >= 10:
+            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.imagem_atual)}.png')
+        elif self.imagem_atual <= 10:
+            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.imagem_atual)}.png')
         else:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.atual)}.png')
+            print('ERRO')
         
         if self.moving_right and self.rect.right < self.screen_rect.right: 
             self.center += self.ai_settings.ship_speed_factor
@@ -55,7 +57,7 @@ class Nave(Sprite):
             self.ai_settings.bullet_width *= 2
             self.ai_settings.bullet_height *= 2
             self.ai_settings.bullet_color = (255, 0, 0)
-            
+                        
             som_powerup = pygame.mixer.music
             som_powerup.load('sons/powerUp.wav')
             som_powerup.play()
