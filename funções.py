@@ -18,6 +18,9 @@ def eventos_keydown(event, ai_settings, screen, stats, nave, disparos):
         nave.moving_left = True
     if event.key == pygame.K_SPACE or pygame.K_m:
         disparar(event, ai_settings, screen, stats, nave, disparos)
+    if event.key == pygame.K_p:
+        stats.game_active = False
+        pygame.mouse.set_visible(True)
     if event.key == pygame.K_F11:
         pygame.display.toggle_fullscreen()
     if event.key == pygame.K_ESCAPE: 

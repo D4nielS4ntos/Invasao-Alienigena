@@ -53,9 +53,9 @@ class Nave(Sprite):
 
     def ultima_vida(self):
         if self.stats.ships_left == 1:
-            self.ai_settings.bullet_speed_factor *= 2 
-            self.ai_settings.bullet_width *= 2
-            self.ai_settings.bullet_height *= 2
+            self.ai_settings.bullet_speed_factor = self.ai_settings.last_life_bullet_speed_factor
+            self.ai_settings.bullet_width = self.ai_settings.last_life_bullet_width
+            self.ai_settings.bullet_height = self.ai_settings.last_life_bullet_height
             self.ai_settings.bullet_color = (255, 0, 0)
                         
             som_powerup = pygame.mixer.music

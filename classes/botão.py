@@ -33,7 +33,7 @@ class Button():
         self.screen_rect = screen.get_rect()
         self.width, self.height = 200, 50
         # Dimenções e propriedades do botão
-        self.button_color = ai_settings.button_color
+        self.button_color = None
         self.text_color = ai_settings.text_color
         self.font = pygame.font.SysFont(None, 48)
         # Constroi o botão

@@ -12,6 +12,9 @@ class Config:
         self.bullet_speed_factor = 2
         self.bullet_width = 3
         self.bullet_height = 15
+        self.last_life_bullet_speed_factor = self.bullet_speed_factor * 2 
+        self.last_life_bullet_width = self.bullet_width * 2
+        self.last_life_bullet_height = self.bullet_height * 2
         self.bullet_color = (230, 230, 230) 
         self.bullets_allowed = 3
         self.disparando = False
@@ -20,7 +23,7 @@ class Config:
         self.alien_bullet_width = 3
         self.alien_bullet_height = 15
         self.alien_bullet_color = (0, 255, 50) 
-        self.alien_bullets_allowed = 3
+        self.alien_bullets_allowed = 12
     # Configurações da frota
         self.alien_speed_factor = 1
         self.alien_speed_in_stage_game = 1
@@ -35,11 +38,9 @@ class Config:
         self.alien_points = 50
         self.level = 1
         self.initialize_dynamic_settings()
-    # Configurações botão
-        self.button_color = (0, 255, 0)
+    # Configurações botão e tabela de pontos
         self.text_color = (255, 255, 255)
-    # Configurações tabela de pontos
-        self.table_color = (200, 200, 0)
+        self.table_color = (0, 150, 0)
 
         
     def initialize_dynamic_settings(self): 
