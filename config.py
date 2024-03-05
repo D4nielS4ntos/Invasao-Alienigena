@@ -5,7 +5,7 @@ class Config:
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = (0, 0, 0) 
-    # Configurações da nave
+    # Configurações da ship
         self.ship_speed_factor = 1.5
         self.ship_limit = 3
     # Configurações do disparo
@@ -17,7 +17,7 @@ class Config:
         self.last_life_bullet_height = self.bullet_height * 2
         self.bullet_color = (230, 230, 230) 
         self.bullets_allowed = 3
-        self.disparando = False
+        self.shoting = False
         # teste
         self.alien_bullet_speed_factor = 1
         self.alien_bullet_width = 3
@@ -27,11 +27,11 @@ class Config:
     # Configurações da frota
         self.alien_speed_factor = 1
         self.alien_speed_in_stage_game = 1
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 10*3
         self.fleet_direction = 1
         self.alien_bomb_speed = 0.2
-        self.alienigenas = False 
-        self.alienigenas_bomba = False 
+        self.aliens = False 
+        self.bombs = False 
     # Configurações de aumentos do jogo
         self.speed_up_scale = 1.1
         self.score_scale = 1.5
@@ -44,7 +44,7 @@ class Config:
 
         
     def initialize_dynamic_settings(self): 
-    # Configurações da nave
+    # Configurações da ship
         self.ship_speed_factor = 1.5
     # Configurações do disparo
         self.bullet_width = 3 #*100

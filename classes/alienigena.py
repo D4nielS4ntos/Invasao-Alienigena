@@ -1,4 +1,4 @@
-# from random import randint
+from random import randint
 
 import pygame
 from pygame.sprite import Sprite
@@ -11,8 +11,8 @@ class Alienigena(Sprite):
         self.screen = screen 
         self.ai_settings = ai_settings
         # Imagem
-        self.atual = 0
-        self.image = pygame.image.load(f'imagens/Alienigena_32x32/sprite_{int(self.atual)}.bmp')
+        self.current_image_index = 0
+        self.image = pygame.image.load(f'imagens/Alienigena_32x32/sprite_{int(self.current_image_index)}.bmp')
         self.image = pygame.transform.scale(self.image, (32*2, 32*2))
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.width 
@@ -25,17 +25,17 @@ class Alienigena(Sprite):
         # Pontuação
         self.alien_points = ai_settings.alien_points
         
-    def mostrar(self):
+    def show(self):
         self.screen.blit(self.image, self.rect)
 
     def update(self):
         # Move o alienigena
         # if randint(1, 5) == 5:
-        #     self.atual += 0.1
-        # if self.atual > 2:
-        #     self.atual = 0
+        #     self.current_image_index += 0.1
+        # if self.current_image_index > 2:
+        #     self.current_image_index = 0
         # else:
-        #     self.image = pygame.image.load(f'imagens/Alienigena_32x32/sprite_{int(self.atual)}.bmp')
+        #     self.image = pygame.image.load(f'imagens/Alienigena_32x32/sprite_{int(self.current_image_index)}.bmp')
 
         if self.row_number_y % 2 == 0:
             self.x += (self.ai_settings.alien_speed_factor * self.alien_direction)
@@ -43,7 +43,7 @@ class Alienigena(Sprite):
             self.x -= (self.ai_settings.alien_speed_factor * self.alien_direction)
         self.rect.x = self.x
 
-    def checar_lados(self):
+    def check_sides(self):
         # Vê se o alienigena está em tocando um dos lados
         screen_rect = self.screen.get_rect()
         if self.rect.right >= screen_rect.right:

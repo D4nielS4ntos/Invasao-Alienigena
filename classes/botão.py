@@ -52,6 +52,6 @@ class Button():
         self.msg_image_rect = self.msg_image.get_rect()
         self.msg_image_rect.center = self.screen_rect.center
     
-    def desenhar_button(self):
+    def drawn_button(self):
         self.screen.blit(self.background, (self.background_positionx, self.background_positiony))
         self.screen.blit(self.msg_image, self.msg_image_rect)

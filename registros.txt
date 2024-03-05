@@ -467,3 +467,171 @@ Pontuacao alcancada: 350
 Alienigenas mortos: 7
 Tiros disparados: 14
 ----------------------------------------
+----------------------------------------
+Numero do teste: 69
+Nivel: 11
+Pontuacao alcancada: 219305
+Alienigenas mortos: 275
+Tiros disparados: 398
+----------------------------------------
+----------------------------------------
+Numero do teste: 70
+Nivel: 9
+Pontuacao alcancada: 74337
+Alienigenas mortos: 183
+Tiros disparados: 247
+----------------------------------------
+----------------------------------------
+Numero do teste: 71
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 13
+----------------------------------------
+----------------------------------------
+Numero do teste: 72
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 73
+Nivel: 3
+Pontuacao alcancada: 2917
+Alienigenas mortos: 34
+Tiros disparados: 56
+----------------------------------------
+----------------------------------------
+Numero do teste: 74
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 75
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 76
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 77
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 78
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 79
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 80
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 81
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 82
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 83
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 84
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 85
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 86
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 87
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 88
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 89
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 90
+Nivel: 7
+Pontuacao alcancada: 23175
+Alienigenas mortos: 106
+Tiros disparados: 170
+----------------------------------------
+----------------------------------------
+Numero do teste: 91
+Nivel: 7
+Pontuacao alcancada: 40752
+Alienigenas mortos: 137
+Tiros disparados: 281
+----------------------------------------
+----------------------------------------
+Numero do teste: 92
+Nivel: 4
+Pontuacao alcancada: 3441
+Alienigenas mortos: 41
+Tiros disparados: 95
+----------------------------------------

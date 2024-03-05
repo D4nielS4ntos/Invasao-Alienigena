@@ -13,8 +13,8 @@ class Nave(Sprite):
         self.screen = screen
         self.stats = stats
         # Imagem
-        self.imagem_atual = 0
-        self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.imagem_atual)}.png')
+        self.current_image_index = 0
+        self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.current_image_index)}.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.centerx = self.screen_rect.centerx
@@ -23,24 +23,24 @@ class Nave(Sprite):
         self.center = float(self.rect.centerx)
         self.moving_right = False
         self.moving_left = False 
-        self.ultima_vida()
+        self.last_life()
 
-    def mostrar(self):
+    def show(self):
     # Mostra a nave na tela
         self.screen.blit(self.image, self.rect)
 
     def update(self):
     # Atualiza a posição da nave
         if randint(1, 5) == 5:
-            self.imagem_atual += 0.1
-        if self.imagem_atual > 15:
-            self.imagem_atual = 0
-        elif self.imagem_atual >= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.imagem_atual)}.png')
-        elif self.imagem_atual <= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.imagem_atual)}.png')
+            self.current_image_index += 0.1
+        if self.current_image_index > 15:
+            self.current_image_index = 0
+        elif self.current_image_index >= 10:
+            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.current_image_index)}.png')
+        elif self.current_image_index <= 10:
+            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.current_image_index)}.png')
         else:
-            print('ERRO')
+            print('ERROR')
         
         if self.moving_right and self.rect.right < self.screen_rect.right: 
             self.center += self.ai_settings.ship_speed_factor
@@ -48,10 +48,10 @@ class Nave(Sprite):
             self.center -= self.ai_settings.ship_speed_factor
         self.rect.centerx = self.center
 
-    def centrar_nave(self):
+    def center_ship(self):
         self.center = self.screen_rect.centerx
 
-    def ultima_vida(self):
+    def last_life(self):
         if self.stats.ships_left == 1:
             self.ai_settings.bullet_speed_factor = self.ai_settings.last_life_bullet_speed_factor
             self.ai_settings.bullet_width = self.ai_settings.last_life_bullet_width

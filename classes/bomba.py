@@ -24,7 +24,7 @@ class Bomba(Sprite):
         # Pontuação
         self.alien_points = ai_settings.alien_points
 
-    def mostrar(self):
+    def show(self):
         self.screen.blit(self.image, self.rect)
 
     def update(self):
@@ -33,7 +33,7 @@ class Bomba(Sprite):
         self.y += self.ai_settings.alien_bomb_speed #+ variation
         self.rect.y = self.y
 
-    def checar_lados(self):
+    def check_sides(self):
         # Vê se o alienigena está em tocando um dos lados
         screen_rect = self.screen.get_rect()
         if self.rect.right >= screen_rect.right:
