@@ -95,7 +95,7 @@ def drawn_shots(ai_settings, screen, ship, shots, stats, shots_aliens):
     # Desenha os projeteis, faz parte de update_screen
     new_shot = Disparo(ai_settings, screen, ship) # teste
     for shot in shots.sprites(): 
-        shot.drawn_shot()
+        shot.drawn_shot(ship)
         if ai_settings.shoting == True and len(shots) < ai_settings.bullets_allowed: # if ai_settings.shoting == True and len(shots): # colocar esse if == bug legal # teste
             shots.add(new_shot)
             stats.bullet_shots += 1
@@ -249,9 +249,10 @@ def create_fleet(ai_settings, screen, stats, ship, aliens):
             for alien_number_x in range(number_aliens_x):
                 create_alien(ai_settings, screen, aliens, alien_number_x, row_number_y)
     elif ai_settings.bombs == True: 
-        for row_number_y in range(number_aliens_y):
-            alien_number_x = randint(1, number_aliens_x)
-            create_bomb(ai_settings, screen, aliens, alien_number_x, row_number_y)
+        # for row_number_y in range(number_aliens_y):
+        row_number_y = 0
+        alien_number_x = randint(1, number_aliens_x)
+        create_bomb(ai_settings, screen, aliens, alien_number_x, row_number_y)
 
 
 def change_fleet_movement(ai_settings, alien_move):
@@ -351,6 +352,7 @@ def check_alien_quantity(ai_settings, screen, stats, ship, aliens, shots, table_
 def aliens_update(ai_settings, stats, screen, ship, aliens, shots, table_of_points, shots_aliens):
     check_alien_quantity(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens) 
     check_fleet_sides(ai_settings, aliens)
+    # check_bomb(ai_settings, bombs)
     # Verifica se houve colisão com a ship
     if pygame.sprite.spritecollideany(ship, aliens): 
         collide_ship(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens)

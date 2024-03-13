@@ -11,7 +11,7 @@ class Bomba(Sprite):
         self.screen = screen 
         self.ai_settings = ai_settings
         # Imagem
-        self.image = pygame.image.load('imagens/bomba_64x64.bmp')
+        self.image = pygame.image.load('imagens/Bomba.png')
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.width 
         self.rect.y = self.rect.height

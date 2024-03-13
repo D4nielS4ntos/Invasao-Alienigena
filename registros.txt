@@ -635,3 +635,59 @@ Pontuacao alcancada: 3441
 Alienigenas mortos: 41
 Tiros disparados: 95
 ----------------------------------------
+----------------------------------------
+Numero do teste: 93
+Nivel: 3
+Pontuacao alcancada: 1909
+Alienigenas mortos: 25
+Tiros disparados: 48
+----------------------------------------
+----------------------------------------
+Numero do teste: 94
+Nivel: 4
+Pontuacao alcancada: 4281
+Alienigenas mortos: 45
+Tiros disparados: 69
+----------------------------------------
+----------------------------------------
+Numero do teste: 95
+Nivel: 5
+Pontuacao alcancada: 11505
+Alienigenas mortos: 80
+Tiros disparados: 174
+----------------------------------------
+----------------------------------------
+Numero do teste: 96
+Nivel: 1
+Pontuacao alcancada: 300
+Alienigenas mortos: 6
+Tiros disparados: 25
+----------------------------------------
+----------------------------------------
+Numero do teste: 97
+Nivel: 1
+Pontuacao alcancada: 450
+Alienigenas mortos: 9
+Tiros disparados: 29
+----------------------------------------
+----------------------------------------
+Numero do teste: 98
+Nivel: 2
+Pontuacao alcancada: 825
+Alienigenas mortos: 14
+Tiros disparados: 32
+----------------------------------------
+----------------------------------------
+Numero do teste: 99
+Nivel: 2
+Pontuacao alcancada: 700
+Alienigenas mortos: 14
+Tiros disparados: 38
+----------------------------------------
+----------------------------------------
+Numero do teste: 100
+Nivel: 4
+Pontuacao alcancada: 4037
+Alienigenas mortos: 41
+Tiros disparados: 89
+----------------------------------------

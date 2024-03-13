@@ -37,7 +37,7 @@ class Button():
         self.text_color = ai_settings.text_color
         self.font = pygame.font.SysFont(None, 48)
         # Constroi o botão
-        self.background = pygame.image.load('imagens/espaço de texto-2.png') # pygame.Rect(0, 0, self.width, self.height)
+        self.background = pygame.image.load('imagens/espaço de texto-2.png').convert() # pygame.Rect(0, 0, self.width, self.height)
         self.background = pygame.transform.scale(self.background, (32*4, 32*4))
         self.rect = self.background.get_rect()
 

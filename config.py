@@ -10,11 +10,11 @@ class Config:
         self.ship_limit = 3
     # Configurações do disparo
         self.bullet_speed_factor = 2
-        self.bullet_width = 3
-        self.bullet_height = 15
+        self.bullet_width = 2 #3
+        self.bullet_height = 2 #15
         self.last_life_bullet_speed_factor = self.bullet_speed_factor * 2 
-        self.last_life_bullet_width = self.bullet_width * 2
-        self.last_life_bullet_height = self.bullet_height * 2
+        # self.last_life_bullet_width = self.bullet_width * 2
+        # self.last_life_bullet_height = self.bullet_height * 2
         self.bullet_color = (230, 230, 230) 
         self.bullets_allowed = 3
         self.shoting = False

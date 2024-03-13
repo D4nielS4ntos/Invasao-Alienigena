@@ -36,9 +36,9 @@ class Nave(Sprite):
         if self.current_image_index > 15:
             self.current_image_index = 0
         elif self.current_image_index >= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.current_image_index)}.png')
+            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.current_image_index)}.png').convert()
         elif self.current_image_index <= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.current_image_index)}.png')
+            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.current_image_index)}.png').convert()
         else:
             print('ERROR')
         
@@ -54,9 +54,10 @@ class Nave(Sprite):
     def last_life(self):
         if self.stats.ships_left == 1:
             self.ai_settings.bullet_speed_factor = self.ai_settings.last_life_bullet_speed_factor
-            self.ai_settings.bullet_width = self.ai_settings.last_life_bullet_width
-            self.ai_settings.bullet_height = self.ai_settings.last_life_bullet_height
-            self.ai_settings.bullet_color = (255, 0, 0)
+            # self.ai_settings.bullet_width = self.ai_settings.last_life_bullet_width
+            # self.ai_settings.bullet_height = self.ai_settings.last_life_bullet_height
+            # self.rect_image = pygame.transform.scale(self.rect_image, (self.rect_x * 2, self.rect_y*2))
+            # self.ai_settings.bullet_color = (255, 0, 0)
                         
             som_powerup = pygame.mixer.music
             som_powerup.load('sons/powerUp.wav')
