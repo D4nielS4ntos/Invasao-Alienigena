@@ -29,7 +29,8 @@ class Config:
         self.alien_speed_in_stage_game = 1
         self.fleet_drop_speed = 10*3
         self.fleet_direction = 1
-        self.alien_bomb_speed = 0.2
+        self.alien_bomb_speed = 0.5
+        self.bombs_in_stage = 0
         self.aliens = False 
         self.bombs = False 
     # Configurações de aumentos do jogo
@@ -56,7 +57,7 @@ class Config:
         self.alien_speed_factor = 1
         self.alien_speed_in_stage_game = 1
         self.alien_speed_factor = 1
-        self.alien_bomb_speed = 0.2 
+        self.alien_bomb_speed = 0.5
     # Configurações de aumentos do jogo
         self.speed_up_scale = 1.1
         self.alien_points = 50
@@ -66,6 +67,8 @@ class Config:
         # A velocidade para de aumentar a partir do level 10
         if self.level <= 10: 
             self.alien_speed_factor *= self.speed_up_scale
+            self.alien_bomb_speed *= self.speed_up_scale
             self.alien_points = int(self.alien_points * self.score_scale)
             self.alien_speed_in_stage_game *= self.speed_up_scale # Velocidade que inicia o nível
+            self.alien_bomb_speed *= self.speed_up_scale
             self.level += 1

@@ -36,7 +36,7 @@ def keyup_events(event, ai_settings, ship):
         ai_settings.shoting = False
 
 
-def events(ai_settings, screen, ship, shots, aliens, stats, table_of_points, shots_aliens, play_button):
+def events(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, table_of_points, shots_aliens, play_button):
 # Responde as ações do usuário
     for event in pygame.event.get():
         if event.type == pygame.QUIT: 
@@ -47,10 +47,10 @@ def events(ai_settings, screen, ship, shots, aliens, stats, table_of_points, sho
             keyup_events(event, ai_settings, ship)
         elif event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = pygame.mouse.get_pos()
-            check_play_button(ai_settings, screen, ship, shots, aliens, stats, play_button, table_of_points, shots_aliens, mouse_x, mouse_y)
+            check_play_button(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, shots_aliens, mouse_x, mouse_y)
 
 
-def check_play_button(ai_settings, screen, ship, shots, aliens, stats, play_button, table_of_points, shots_aliens, mouse_x, mouse_y):
+def check_play_button(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, shots_aliens, mouse_x, mouse_y):
 # Faz parte de checar_eventos
     button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
     if button_clicked and not stats.game_active and ai_settings.aliens == False and ai_settings.bombs == False:
@@ -66,15 +66,17 @@ def check_play_button(ai_settings, screen, ship, shots, aliens, stats, play_butt
         table_of_points.prep_ships()
         # Tira aliens e ship
         aliens.empty()
+        alien_bombs.empty()
         shots.empty()
         shots_aliens.empty()
         # Coloca aliens e ship
-        create_fleet(ai_settings, screen, stats, ship, aliens) 
+        create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs) 
         ship.center_ship()
         # Som de start
         pygame.mixer.music.load('sons/game-start-6104.mp3')
         pygame.mixer.music.play()
     elif button_clicked and not stats.game_active and ai_settings.aliens == True or ai_settings.bombs == True:
+        pygame.mouse.set_visible(False)
         stats.game_active = True
 
 
@@ -103,12 +105,13 @@ def drawn_shots(ai_settings, screen, ship, shots, stats, shots_aliens):
         shot_alien.drawn_shot() # teste
 
 
-def screen_update(ai_settings, screen, ship, shots, aliens, stats, play_button, table_of_points, shots_aliens):
+def screen_update(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, shots_aliens):
 # Atualiza as informações na tela
     screen.fill(ai_settings.bg_color)
     drawn_shots(ai_settings, screen, ship, shots, stats, shots_aliens) # Desenha os projeteis
     ship.show() # Desenha a ship
     aliens.draw(screen) # Desenha o alien
+    alien_bombs.draw(screen) # Desenha o alien
     table_of_points.show_score() # Desenha a tabela de pontos
     # Desenha o botão de play
     if not stats.game_active:
@@ -126,7 +129,8 @@ def add_alien_shots(ai_settings, screen, stats, ship, aliens, shots_aliens):
             row_number_y = alien_values['aliens_y']
             novo_shot_alien = Disparo_alienigena(ai_settings, screen, ship) 
             novo_shot_alien.shot_position(aliens, alien_number_x, row_number_y)
-            if novo_shot_alien.rect.x != 0 and novo_shot_alien.y != 0: shots_aliens.add(novo_shot_alien) 
+            if novo_shot_alien.rect.x != 0 and novo_shot_alien.y != 0: 
+                shots_aliens.add(novo_shot_alien) 
 
 
 def check_high_score(stats, table_of_points):
@@ -136,10 +140,11 @@ def check_high_score(stats, table_of_points):
         table_of_points.prep_high_score()
         # Som de pontuação
         pygame.mixer.music.load('sons/recorde.wav')
+        pygame.mixer.music.set_volume(0.25)
         pygame.mixer.music.play()
 
 
-def check_alien_shot_collision(ai_settings, screen, shots, aliens, ship, stats, table_of_points, shots_aliens):
+def check_alien_shot_collision(ai_settings, screen, shots, aliens, alien_bombs, ship, stats, table_of_points, shots_aliens):
 # Remove os aliens que sofreram colisão # Faz parte de shots_update
     colisoes = pygame.sprite.groupcollide(shots, aliens, True, True)
     if colisoes:
@@ -148,16 +153,29 @@ def check_alien_shot_collision(ai_settings, screen, shots, aliens, ship, stats, 
             stats.score += ai_settings.alien_points * len(aliens)
             table_of_points.prep_score()
             check_high_score(stats, table_of_points)
-        # Som de pontuação
-        pygame.mixer.music.load('sons/pickupCoin.wav')
-        pygame.mixer.music.set_volume(0.75)
-        pygame.mixer.music.play()
+        if stats.score != stats.high_score: 
+            # Som de pontuação
+            pygame.mixer.music.load('sons/pickupCoin.wav')
+            pygame.mixer.music.set_volume(0.75)
+            pygame.mixer.music.play()
+    colisoes = pygame.sprite.groupcollide(shots, alien_bombs, True, True)
+    if colisoes:
+        for alien_bombs in colisoes.values():
+            stats.alien_deaths += 1
+            stats.score += ai_settings.alien_points * len(alien_bombs) * 2
+            table_of_points.prep_score()
+            check_high_score(stats, table_of_points)
+        if stats.score != stats.high_score: 
+            # Som de pontuação
+            pygame.mixer.music.load('sons/pickupCoin.wav')
+            pygame.mixer.music.set_volume(0.75)
+            pygame.mixer.music.play()
     # teste
     if pygame.sprite.spritecollideany(ship, shots_aliens): 
-        collide_ship(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens)
+        collide_ship(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens)
 
 
-def shots_update(ai_settings, screen, shots, aliens, ship, stats, table_of_points, shots_aliens):
+def shots_update(ai_settings, screen, shots, aliens, alien_bombs, ship, stats, table_of_points, shots_aliens):
 # Atualiza os shots e remove os shots fora da tela
     for shot in shots.copy():
         if shot.rect.bottom <= 0:
@@ -167,7 +185,7 @@ def shots_update(ai_settings, screen, shots, aliens, ship, stats, table_of_point
         if shot_alien.rect.top >= 800:
             shots_aliens.remove(shot_alien)
     add_alien_shots(ai_settings, screen, stats, ship, aliens, shots_aliens) # teste
-    check_alien_shot_collision(ai_settings, screen, shots, aliens, ship, stats, table_of_points, shots_aliens)
+    check_alien_shot_collision(ai_settings, screen, shots, aliens, alien_bombs, ship, stats, table_of_points, shots_aliens)
     
 
 def get_number_aliens_line_x(ai_settings, alien_width):
@@ -220,17 +238,17 @@ def create_alien(ai_settings, screen, aliens, alien_number_x, row_number_y):
     aliens.add(alien)
 
 # teste
-def create_bomb(ai_settings, screen, aliens_bomba, alien_number_x, row_number_y):
+def create_bomb(ai_settings, screen, alien_bombs, alien_number_x, row_number_y, ship):
 # Cria um alien # Faz parte de create_fleet
-    alien_bomba = Bomba(ai_settings, screen, alien_number_x, row_number_y)
-    alien_width = alien_bomba.rect.width
-    alien_bomba.x = alien_width + 2 * alien_width * alien_number_x 
-    alien_bomba.rect.x = alien_bomba.x 
-    alien_bomba.rect.y = alien_bomba.rect.height + 2 * alien_bomba.rect.height * row_number_y
-    aliens_bomba.add(alien_bomba)
+    alien_bomb = Bomba(ai_settings, screen, ship, alien_number_x, row_number_y)
+    alien_width = alien_bomb.rect.width
+    alien_bomb.x = alien_width + 2 * alien_width * alien_number_x 
+    alien_bomb.rect.x = alien_bomb.x 
+    alien_bomb.rect.y = alien_bomb.rect.height + 2 * alien_bomb.rect.height * row_number_y
+    alien_bombs.add(alien_bomb)
     
 
-def create_fleet(ai_settings, screen, stats, ship, aliens):
+def create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs):
 # Cria uma frota de aliens # Faz parte de collide_ship e check_alien_quantity
     aliens_valores = total_aliens(ai_settings, stats, ship, screen, aliens)
     number_aliens_x = aliens_valores['aliens_x']
@@ -249,10 +267,19 @@ def create_fleet(ai_settings, screen, stats, ship, aliens):
             for alien_number_x in range(number_aliens_x):
                 create_alien(ai_settings, screen, aliens, alien_number_x, row_number_y)
     elif ai_settings.bombs == True: 
+        alien_number_x = randint(0, 15)
+        row_number_y = 0 
+        # randint(1, number_aliens_y)
+        # alien_number_x = randint(1, number_aliens_x)
         # for row_number_y in range(number_aliens_y):
-        row_number_y = 0
-        alien_number_x = randint(1, number_aliens_x)
-        create_bomb(ai_settings, screen, aliens, alien_number_x, row_number_y)
+        # while ai_settings.bombs_in_stage <= ai_settings.level:
+        # if ai_settings.bombs_in_stage <= ai_settings.level:
+        # if ai_settings.bombs_in_stage <= ai_settings.level:
+        # for alien_number_x in range(number_aliens_x):
+        create_bomb(ai_settings, screen, alien_bombs, alien_number_x, row_number_y, ship)
+        ai_settings.bombs_in_stage += 1
+        # elif ai_settings.bombs_in_stage >= ai_settings.level:
+        #     ai_settings.bombs = False 
 
 
 def change_fleet_movement(ai_settings, alien_move):
@@ -268,27 +295,32 @@ def check_fleet_sides(ai_settings, aliens):
             change_fleet_movement(ai_settings, alien_move)
 
 
-def check_screen_botton(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens):
+def check_screen_botton(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens):
 # Faz parte de aliens_update
     screen_rect = screen.get_rect()
     for alien in aliens.sprites():
         if alien.rect.bottom >= screen_rect.bottom:
             collide_ship(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens)
             break
+    for bomb in alien_bombs.sprites():
+        if bomb.rect.bottom >= screen_rect.bottom:
+            alien_bombs.remove(bomb)
+            break
 
 
-def collide_ship(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens):
+def collide_ship(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens):
 # Faz parte de aliens_update e check_screen_botton
     stats.ships_left -= 1
     table_of_points.prep_ships()
     if stats.ships_left > 0:
         # Esvazia grupos
         aliens.empty()
+        alien_bombs.empty()
         shots.empty()
         shots_aliens.empty()
         # Recomeça
         ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game 
-        create_fleet(ai_settings, screen, stats, ship, aliens)
+        create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs)
         ship.center_ship()
         sleep(0.5)
     else:
@@ -322,22 +354,29 @@ def update_alien_speed(ai_settings, alien_quantity, total_number_aliens):
             ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game + 5
 
 
-def check_alien_quantity(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens):
+def check_alien_quantity(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens):
     # Faz parte de aliens_update
     alien_values = total_aliens(ai_settings, stats, ship, screen, aliens)
     total_number_aliens = alien_values['total_aliens']
     alien_quantity = alien_values['alien_quantity']
     update_alien_speed(ai_settings, alien_quantity, total_number_aliens)
 
-    if len(aliens) == 0 and ai_settings.aliens == False and ai_settings.bombs == False: # teste
+    if len(aliens) == 0 and ai_settings.aliens == False and ai_settings.bombs == False: 
+        # Criar aliens
         ai_settings.aliens = True
-        create_fleet(ai_settings, screen, stats, ship, aliens)
-    elif len(aliens) == 0 and ai_settings.aliens == True and ai_settings.bombs == False: # teste
+        create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs)
+    elif len(aliens) == 0 and ai_settings.aliens == True and ai_settings.bombs == False: 
+        # Criar bombas
         ai_settings.aliens = False
         ai_settings.bombs = True
-        create_fleet(ai_settings, screen, stats, ship, aliens)
-    elif len(aliens) == 0 and ai_settings.bombs == True: # teste
+        create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs)
+    elif len(aliens) == 0 and len(alien_bombs) == 0 and ai_settings.aliens == False and ai_settings.bombs == True and ai_settings.bombs_in_stage <= ai_settings.level:
+        # Criar bombas
+        create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs)
+    elif len(aliens) == 0 and len(alien_bombs) == 0 and ai_settings.aliens == False and ai_settings.bombs == True and ai_settings.bombs_in_stage >= ai_settings.level:
         # Esvazia grupos
+        ai_settings.bombs = False 
+        ai_settings.bombs_in_stage = 0
         aliens.empty()
         shots.empty()
         shots_aliens.empty()
@@ -345,15 +384,12 @@ def check_alien_quantity(ai_settings, screen, stats, ship, aliens, shots, table_
         stats.level += 1 # Aumenta o level
         table_of_points.prep_level()
         ai_settings.alien_speed_factor = ai_settings.alien_speed_in_stage_game 
-        ai_settings.bombs = False # teste
-        create_fleet(ai_settings, screen, stats, ship, aliens)
         
 
-def aliens_update(ai_settings, stats, screen, ship, aliens, shots, table_of_points, shots_aliens):
-    check_alien_quantity(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens) 
+def aliens_update(ai_settings, stats, screen, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens):
+    check_alien_quantity(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens) 
     check_fleet_sides(ai_settings, aliens)
-    # check_bomb(ai_settings, bombs)
     # Verifica se houve colisão com a ship
-    if pygame.sprite.spritecollideany(ship, aliens): 
-        collide_ship(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens)
-    check_screen_botton(ai_settings, screen, stats, ship, aliens, shots, table_of_points, shots_aliens)
+    if pygame.sprite.spritecollideany(ship, aliens) or pygame.sprite.spritecollideany(ship, alien_bombs): 
+        collide_ship(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens)
+    check_screen_botton(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens)

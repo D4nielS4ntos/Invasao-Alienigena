@@ -26,16 +26,18 @@ def run_game():
     shots = Group() # Cria um grupo de projéteis
     alien_shots = Group() # Cria um grupo de projéteis para os alienigenas
     aliens = Group() # Cria um grupo de alienigenas
+    alien_bombs = Group() # Cria um grupo de bombas
     while True:
     # Laço principal
-        f.events(ai_settings, screen, ship, shots, aliens, stats, table_of_points, alien_shots, play_button)
+        f.events(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, table_of_points, alien_shots, play_button)
         if stats.game_active:
             ship.update()
             aliens.update()
+            alien_bombs.update()
             shots.update()
             alien_shots.update() 
-            f.shots_update(ai_settings, screen, shots, aliens, ship, stats, table_of_points, alien_shots)
-            f.aliens_update(ai_settings, stats, screen, ship, aliens, shots, table_of_points, alien_shots)
-        f.screen_update(ai_settings, screen, ship, shots, aliens, stats, play_button, table_of_points, alien_shots)
+            f.shots_update(ai_settings, screen, shots, aliens, alien_bombs, ship, stats, table_of_points, alien_shots)
+            f.aliens_update(ai_settings, stats, screen, ship, aliens, alien_bombs, shots, table_of_points, alien_shots)
+        f.screen_update(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, alien_shots)
 run_game() 
-       
+         

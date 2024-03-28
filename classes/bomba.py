@@ -6,10 +6,11 @@ from pygame.sprite import Sprite
 
 class Bomba(Sprite):
     # Representa um alienígena
-    def __init__(self, ai_settings, screen,  alien_number_x=0, row_number_y=0):
+    def __init__(self, ai_settings, screen, ship, alien_number_x=0, row_number_y=0):
         super(Bomba, self).__init__()
         self.screen = screen 
         self.ai_settings = ai_settings
+        self.ship = ship
         # Imagem
         self.image = pygame.image.load('imagens/Bomba.png')
         self.rect = self.image.get_rect()
@@ -30,7 +31,12 @@ class Bomba(Sprite):
     def update(self):
         # Move o alienigena
         # variation = randint(-5, 5) / 10
-        self.y += self.ai_settings.alien_bomb_speed #+ variation
+        if self.x <= self.ship.rect.centerx:
+            self.x += self.ai_settings.alien_bomb_speed
+        elif self.x >= self.ship.rect.centerx:
+            self.x -= self.ai_settings.alien_bomb_speed
+        self.y += self.ai_settings.alien_bomb_speed
+        self.rect.x = self.x
         self.rect.y = self.y
 
     def check_sides(self):
