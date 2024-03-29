@@ -12,11 +12,11 @@ class GameStats:
         self.score = 0
         self.bullet_shots = 0
         self.alien_deaths = 0
-        # self.time = time.time()
+        self.name = 'digite seu nome...'
 
     def reset_stats(self):
         self.ships_left = self.ai_settings.ship_limit
-        self.level = 1
+        self.level = self.ai_settings.level
         self.score = 0
         self.bullet_shots = 0
         self.alien_deaths = 0
@@ -24,6 +24,7 @@ class GameStats:
         json_arquive = open('tabela.json')
         json_table = json.load(json_arquive)
         self.high_score = json_table['pontuacao_maxima']
+        self.high_score_name = json_table['pontuacao_maxima_nome']
 
     def register_json_table(self):
         # faz parte de register_json_table
@@ -32,6 +33,7 @@ class GameStats:
             json_table['numero_testes'] += 1
             if self.score > json_table['pontuacao_maxima']: 
                 json_table['pontuacao_maxima'] = self.score
+                json_table['pontuacao_maxima_nome'] = self.name.upper()
             json_table = json.dumps(json_table, indent=4)
         json_arquive = open('tabela.json', 'wt')
         json_arquive.write(json_table)
@@ -43,13 +45,14 @@ class GameStats:
             json_table = json.load(json_arquive)
             test_number = json_table['numero_testes']
             json_arquive.close()
+        name = self.name.upper()
         level = self.level
         score_achived = self.score 
         alien_deaths = self.alien_deaths
         bullet_shots = self.bullet_shots
         texto_registro = ''
         texto_registro += '----------------------------------------\n'
-        texto_registro += f'Numero do teste: {test_number}\nNivel: {level}\nPontuacao alcancada: {score_achived}\n'
+        texto_registro += f'Numero do teste: {test_number}\nNome: {name}\nNivel: {level}\nPontuacao alcancada: {score_achived}\n'
         texto_registro += f'Alienigenas mortos: {alien_deaths}\nTiros disparados: {bullet_shots}\n'
         texto_registro += '----------------------------------------\n'
         with open('registros.txt', 'at') as registros_txt:

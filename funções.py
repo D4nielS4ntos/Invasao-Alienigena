@@ -1,12 +1,104 @@
 import sys
 from time import sleep
 from random import randint
+import json
 
 import pygame
 
 from classes.disparo import Disparo, Disparo_alienigena
 from classes.alienigena import Alienigena
 from classes.bomba import Bomba
+
+
+def write_name(ai_settings, stats, table_of_points, event, input):
+# Faz parte de events
+    if stats.game_active == False and ai_settings.aliens == False and ai_settings.bombs == False:
+        if event.key == pygame.K_q:
+            input = input + "q"
+        elif event.key == pygame.K_w:
+            input = input + "w"
+        elif event.key == pygame.K_e:
+            input = input + "e"
+        elif event.key == pygame.K_r:
+            input = input + "r"
+        elif event.key == pygame.K_t:
+            input = input + "t"
+        elif event.key == pygame.K_y:
+            input = input + "y"
+        elif event.key == pygame.K_u:
+            input = input + "u"
+        elif event.key == pygame.K_i:
+            input = input + "i"
+        elif event.key == pygame.K_o:
+            input = input + "o"
+        elif event.key == pygame.K_p:
+            input = input + "p"
+        elif event.key == pygame.K_a:
+            input = input + "a"
+        elif event.key == pygame.K_s:
+            input = input + "s"
+        elif event.key == pygame.K_d:
+            input = input + "d"
+        elif event.key == pygame.K_f:
+            input = input + "f"
+        elif event.key == pygame.K_g:
+            input = input + "g"
+        elif event.key == pygame.K_h:
+            input = input + "h"
+        elif event.key == pygame.K_j:
+            input = input + "j"
+        elif event.key == pygame.K_k:
+            input = input + "k"
+        elif event.key == pygame.K_l:
+            input = input + "l"
+        elif event.key == pygame.K_z:
+            input = input + "z"
+        elif event.key == pygame.K_x:
+            input = input + "x"
+        elif event.key == pygame.K_c:
+            input = input + "c"
+        elif event.key == pygame.K_v:
+            input = input + "v"
+        elif event.key == pygame.K_b:
+            input = input + "b"
+        elif event.key == pygame.K_n:
+            input = input + "n"
+        elif event.key == pygame.K_m:
+            input = input + "m"
+        elif event.key == pygame.K_1:
+            input = input + "1"
+        elif event.key == pygame.K_2:
+            input = input + "2"
+        elif event.key == pygame.K_3:
+            input = input + "3"
+        elif event.key == pygame.K_4:
+            input = input + "4"
+        elif event.key == pygame.K_5:
+            input = input + "5"
+        elif event.key == pygame.K_6:
+            input = input + "6"
+        elif event.key == pygame.K_7:
+            input = input + "7"
+        elif event.key == pygame.K_8:
+            input = input + "8"
+        elif event.key == pygame.K_9:
+            input = input + "9"
+        elif event.key == pygame.K_0:
+            input = input + "0"
+    else:
+        pass
+    stats.name = input
+    table_of_points.prep_name()
+
+
+def pause(event, ai_settings, stats):
+# Faz parte de keydown_events
+    if event.key == pygame.K_p and stats.game_active == True and ai_settings.aliens == True or ai_settings.bombs == True:
+        stats.game_active = False
+        pygame.mouse.set_visible(True)
+    elif event.key == pygame.K_p and stats.game_active == False and ai_settings.aliens == True or ai_settings.bombs == True:
+        stats.game_active = True
+        pygame.mouse.set_visible(False)
 
 
 def keydown_events(event, ai_settings, screen, stats, ship, shots): 
@@ -18,8 +110,7 @@ def keydown_events(event, ai_settings, screen, stats, ship, shots):
     if event.key == pygame.K_SPACE or pygame.K_m:
         shoting(event, ai_settings, screen, stats, ship, shots)
     if event.key == pygame.K_p:
-        stats.game_active = False
-        pygame.mouse.set_visible(True)
+        pause(event, ai_settings, stats)
     if event.key == pygame.K_F11:
         pygame.display.toggle_fullscreen()
     if event.key == pygame.K_ESCAPE: 
@@ -43,6 +134,7 @@ def events(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, table_o
             sys.exit()
         elif event.type == pygame.KEYDOWN:
             keydown_events(event, ai_settings, screen, stats, ship, shots)
+            write_name(ai_settings, stats, table_of_points, event, stats.name)
         elif event.type == pygame.KEYUP:
             keyup_events(event, ai_settings, ship)
         elif event.type == pygame.MOUSEBUTTONDOWN:
@@ -53,7 +145,8 @@ def events(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, table_o
 def check_play_button(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, shots_aliens, mouse_x, mouse_y):
 # Faz parte de checar_eventos
     button_clicked = play_button.rect.collidepoint(mouse_x, mouse_y)
-    if button_clicked and not stats.game_active and ai_settings.aliens == False and ai_settings.bombs == False:
+    if button_clicked and not stats.game_active and ai_settings.aliens == False and ai_settings.bombs == False and ai_settings.writen_name == True and stats.name != 'digite seu nome...':
+        print('a')
         ai_settings.initialize_dynamic_settings()
         pygame.mouse.set_visible(False)
         # Reinicia estatísticas
@@ -64,6 +157,7 @@ def check_play_button(ai_settings, screen, ship, shots, aliens, alien_bombs, sta
         table_of_points.prep_high_score()
         table_of_points.prep_level()
         table_of_points.prep_ships()
+        table_of_points.prep_name()
         # Tira aliens e ship
         aliens.empty()
         alien_bombs.empty()
@@ -75,7 +169,7 @@ def check_play_button(ai_settings, screen, ship, shots, aliens, alien_bombs, sta
         # Som de start
         pygame.mixer.music.load('sons/game-start-6104.mp3')
         pygame.mixer.music.play()
-    elif button_clicked and not stats.game_active and ai_settings.aliens == True or ai_settings.bombs == True:
+    elif button_clicked and not stats.game_active and ai_settings.aliens == True or ai_settings.bombs == True and ai_settings.writen_name == True and stats.name != 'digite seu nome...':
         pygame.mouse.set_visible(False)
         stats.game_active = True
 
@@ -137,6 +231,17 @@ def check_high_score(stats, table_of_points):
 # Faz parte de check_alien_shot_collision
     if stats.score > stats.high_score: 
         stats.high_score = stats.score
+        # Registrar nome do recorde
+        json_arquive = open('tabela.json')
+        json_table = json.load(json_arquive)
+        json_table['pontuacao_maxima_nome'] = stats.name.upper()
+        json_table = json.dumps(json_table, indent=4)
+        json_arquive = open('tabela.json', 'wt')
+        json_arquive.write(json_table)
+        json_arquive.close()
+        json_arquive = open('tabela.json')
+        json_table = json.load(json_arquive)
+        stats.high_score_name = json_table['pontuacao_maxima_nome']
         table_of_points.prep_high_score()
         # Som de pontuação
         pygame.mixer.music.load('sons/recorde.wav')
@@ -153,7 +258,7 @@ def check_alien_shot_collision(ai_settings, screen, shots, aliens, alien_bombs, 
             stats.score += ai_settings.alien_points * len(aliens)
             table_of_points.prep_score()
             check_high_score(stats, table_of_points)
-        if stats.score != stats.high_score: 
+        if stats.score <= stats.high_score: 
             # Som de pontuação
             pygame.mixer.music.load('sons/pickupCoin.wav')
             pygame.mixer.music.set_volume(0.75)
@@ -165,7 +270,7 @@ def check_alien_shot_collision(ai_settings, screen, shots, aliens, alien_bombs, 
             stats.score += ai_settings.alien_points * len(alien_bombs) * 2
             table_of_points.prep_score()
             check_high_score(stats, table_of_points)
-        if stats.score != stats.high_score: 
+        if stats.score <= stats.high_score: 
             # Som de pontuação
             pygame.mixer.music.load('sons/pickupCoin.wav')
             pygame.mixer.music.set_volume(0.75)
@@ -253,15 +358,14 @@ def create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs):
     aliens_valores = total_aliens(ai_settings, stats, ship, screen, aliens)
     number_aliens_x = aliens_valores['aliens_x']
     number_aliens_y = aliens_valores['aliens_y']
-
+    # Atualiza fileiras
     if stats.level == 1 or stats.level == 2:
         number_aliens_y = 1
     elif stats.level == 3 or stats.level == 4:
         number_aliens_y = 2
     elif stats.level == 5 or stats.level == 6:
         number_aliens_y = 3
-
-    # teste
+    # Cria a frota
     if ai_settings.aliens == True: 
         for row_number_y in range(number_aliens_y):
             for alien_number_x in range(number_aliens_x):
@@ -269,17 +373,8 @@ def create_fleet(ai_settings, screen, stats, ship, aliens, alien_bombs):
     elif ai_settings.bombs == True: 
         alien_number_x = randint(0, 15)
         row_number_y = 0 
-        # randint(1, number_aliens_y)
-        # alien_number_x = randint(1, number_aliens_x)
-        # for row_number_y in range(number_aliens_y):
-        # while ai_settings.bombs_in_stage <= ai_settings.level:
-        # if ai_settings.bombs_in_stage <= ai_settings.level:
-        # if ai_settings.bombs_in_stage <= ai_settings.level:
-        # for alien_number_x in range(number_aliens_x):
         create_bomb(ai_settings, screen, alien_bombs, alien_number_x, row_number_y, ship)
         ai_settings.bombs_in_stage += 1
-        # elif ai_settings.bombs_in_stage >= ai_settings.level:
-        #     ai_settings.bombs = False 
 
 
 def change_fleet_movement(ai_settings, alien_move):
@@ -305,7 +400,6 @@ def check_screen_botton(ai_settings, screen, stats, ship, aliens, alien_bombs, s
     for bomb in alien_bombs.sprites():
         if bomb.rect.bottom >= screen_rect.bottom:
             alien_bombs.remove(bomb)
-            break
 
 
 def collide_ship(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, table_of_points, shots_aliens):
@@ -328,8 +422,12 @@ def collide_ship(ai_settings, screen, stats, ship, aliens, alien_bombs, shots, t
         stats.register_json_table()
         stats.play_register()
         stats.game_active = False
-        ai_settings.aliens = False 
-        ai_settings.aliens_bomba = False 
+        ai_settings.aliens = False
+        ai_settings.aliens_bomba = False
+        ai_settings.writen_name = False
+        ai_settings.level = 1
+        stats.name = 'digite seu nome...'
+        table_of_points.prep_name()
         pygame.mouse.set_visible(True)
     if stats.ships_left != 1:
         som_colisao = pygame.mixer.music

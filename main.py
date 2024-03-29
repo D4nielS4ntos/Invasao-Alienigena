@@ -40,4 +40,3 @@ def run_game():
             f.aliens_update(ai_settings, stats, screen, ship, aliens, alien_bombs, shots, table_of_points, alien_shots)
         f.screen_update(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, alien_shots)
 run_game() 
-         

@@ -29,7 +29,8 @@ class Config:
         self.alien_speed_in_stage_game = 1
         self.fleet_drop_speed = 10*3
         self.fleet_direction = 1
-        self.alien_bomb_speed = 0.5
+        self.alien_bomb_speedx = 0.75
+        self.alien_bomb_speedy = 1.75
         self.bombs_in_stage = 0
         self.aliens = False 
         self.bombs = False 
@@ -42,6 +43,7 @@ class Config:
     # Configurações botão e tabela de pontos
         self.text_color = (255, 255, 255)
         self.table_color = (0, 150, 0)
+        self.writen_name = False
 
         
     def initialize_dynamic_settings(self): 
@@ -70,5 +72,5 @@ class Config:
             self.alien_bomb_speed *= self.speed_up_scale
             self.alien_points = int(self.alien_points * self.score_scale)
             self.alien_speed_in_stage_game *= self.speed_up_scale # Velocidade que inicia o nível
-            self.alien_bomb_speed *= self.speed_up_scale
+            # self.alien_bomb_speed *= self.speed_up_scale
             self.level += 1

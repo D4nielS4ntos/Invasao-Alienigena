@@ -32,10 +32,10 @@ class Bomba(Sprite):
         # Move o alienigena
         # variation = randint(-5, 5) / 10
         if self.x <= self.ship.rect.centerx:
-            self.x += self.ai_settings.alien_bomb_speed
+            self.x += self.ai_settings.alien_bomb_speedx
         elif self.x >= self.ship.rect.centerx:
-            self.x -= self.ai_settings.alien_bomb_speed
-        self.y += self.ai_settings.alien_bomb_speed
+            self.x -= self.ai_settings.alien_bomb_speedx
+        self.y += self.ai_settings.alien_bomb_speedy
         self.rect.x = self.x
         self.rect.y = self.y
 
