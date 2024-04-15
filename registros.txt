@@ -2226,3 +2226,218 @@ Pontuacao alcancada: 377278
 Alienigenas mortos: 303
 Tiros disparados: 528
 ----------------------------------------
+----------------------------------------
+Numero do teste: 295
+Nome: D
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+----------------------------------------
+----------------------------------------
+Numero do teste: 296
+Nome: D
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 13
+Tempo gasto 12.670000076293945
+----------------------------------------
+----------------------------------------
+Numero do teste: 297
+Nome: DJ
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+Tempo gasto 9.59
+----------------------------------------
+----------------------------------------
+Numero do teste: 298
+Nome: DANIEL
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 14.0
+----------------------------------------
+----------------------------------------
+Numero do teste: 299
+Nome: D
+Nivel: 1
+Pontuacao alcancada: 250
+Alienigenas mortos: 5
+Tiros disparados: 5
+Tempo gasto 11.61
+----------------------------------------
+----------------------------------------
+Numero do teste: 300
+Nome: FF
+Nivel: 1
+Pontuacao alcancada: 500
+Alienigenas mortos: 9
+Tiros disparados: 23
+Tempo gasto 19.08
+----------------------------------------
+----------------------------------------
+Numero do teste: 301
+Nome: G
+Nivel: 3
+Pontuacao alcancada: 3292
+Alienigenas mortos: 36
+Tiros disparados: 78
+Tempo gasto 53.43
+----------------------------------------
+----------------------------------------
+Numero do teste: 302
+Nome: G
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 21
+Tempo gasto 17.68
+----------------------------------------
+----------------------------------------
+Numero do teste: 303
+Nome: G
+Nivel: 1
+Pontuacao alcancada: 850
+Alienigenas mortos: 16
+Tiros disparados: 45
+Tempo gasto 29.93
+----------------------------------------
+----------------------------------------
+Numero do teste: 304
+Nome: E
+Nivel: 1
+Pontuacao alcancada: 500
+Alienigenas mortos: 9
+Tiros disparados: 23
+Tempo gasto 22.94
+----------------------------------------
+----------------------------------------
+Numero do teste: 305
+Nome: A
+Nivel: 1
+Pontuacao alcancada: 500
+Alienigenas mortos: 9
+Tiros disparados: 17
+Tempo gasto 16.87
+----------------------------------------
+----------------------------------------
+Numero do teste: 306
+Nome: A
+Nivel: 2
+Pontuacao alcancada: 1000
+Alienigenas mortos: 16
+Tiros disparados: 43
+Tempo gasto 40.68
+----------------------------------------
+----------------------------------------
+Numero do teste: 307
+Nome: Q
+Nivel: 4
+Pontuacao alcancada: 6104
+Alienigenas mortos: 52
+Tiros disparados: 102
+Tempo gasto 61.54
+----------------------------------------
+----------------------------------------
+Numero do teste: 308
+Nome: Z
+Nivel: 9
+Pontuacao alcancada: 82619
+Alienigenas mortos: 174
+Tiros disparados: 273
+Tempo gasto 163.71
+----------------------------------------
+----------------------------------------
+Numero do teste: 309
+Nome: Z
+Nivel: 1
+Pontuacao alcancada: 750
+Alienigenas mortos: 14
+Tiros disparados: 22
+Tempo gasto 17.99
+----------------------------------------
+----------------------------------------
+Numero do teste: 310
+Nome: X
+Nivel: 4
+Pontuacao alcancada: 7074
+Alienigenas mortos: 56
+Tiros disparados: 111
+Tempo gasto 70.74
+----------------------------------------
+----------------------------------------
+Numero do teste: 311
+Nome: DAN
+Nivel: 2
+Pontuacao alcancada: 1000
+Alienigenas mortos: 16
+Tiros disparados: 52
+Tempo gasto 23.8
+----------------------------------------
+----------------------------------------
+Numero do teste: 312
+Nome: A
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 3
+Tempo gasto 6.56
+----------------------------------------
+----------------------------------------
+Numero do teste: 313
+Nome: A
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 11
+Tempo gasto 9.0
+----------------------------------------
+----------------------------------------
+Numero do teste: 314
+Nome: C
+Nivel: 2
+Pontuacao alcancada: 1300
+Alienigenas mortos: 18
+Tiros disparados: 42
+Tempo gasto 30.0
+----------------------------------------
+----------------------------------------
+Numero do teste: 315
+Nome: DANIEL
+Nivel: 2
+Pontuacao alcancada: 1550
+Alienigenas mortos: 25
+Tiros disparados: 77
+Tempo gasto 45.74
+----------------------------------------
+----------------------------------------
+Numero do teste: 316
+Nome: AAAAAAAAAAAAA
+Nivel: 3
+Pontuacao alcancada: 2792
+Alienigenas mortos: 32
+Tiros disparados: 76
+Tempo gasto 66.07
+----------------------------------------
+----------------------------------------
+Numero do teste: 317
+Nome: AAA
+Nivel: 6
+Pontuacao alcancada: 21860
+Alienigenas mortos: 98
+Tiros disparados: 166
+Tempo gasto 97.88
+----------------------------------------
+----------------------------------------
+Numero do teste: 318
+Nome: B
+Nivel: 3
+Pontuacao alcancada: 3800
+Alienigenas mortos: 41
+Tiros disparados: 73
+Tempo gasto 52.89
+----------------------------------------

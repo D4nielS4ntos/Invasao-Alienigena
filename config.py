@@ -32,18 +32,23 @@ class Config:
         self.alien_bomb_speedx = 0.75
         self.alien_bomb_speedy = 1.75
         self.bombs_in_stage = 0
+        self.mothership_speed_factor = 1
         self.aliens = False 
         self.bombs = False 
+        self.questions = False
+        self.answer = False
     # Configurações de aumentos do jogo
         self.speed_up_scale = 1.1
         self.score_scale = 1.5
         self.alien_points = 50
+        self.bomb_points = 50
         self.level = 1
         self.initialize_dynamic_settings()
     # Configurações botão e tabela de pontos
         self.text_color = (255, 255, 255)
         self.table_color = (0, 150, 0)
         self.writen_name = False
+        self.top_rect = 50
 
         
     def initialize_dynamic_settings(self): 
@@ -70,6 +75,7 @@ class Config:
         if self.level <= 10: 
             self.alien_speed_factor *= self.speed_up_scale
             self.alien_bomb_speed *= self.speed_up_scale
+            self.mothership_speed_factor *= self.speed_up_scale
             self.alien_points = int(self.alien_points * self.score_scale)
             self.alien_speed_in_stage_game *= self.speed_up_scale # Velocidade que inicia o nível
             # self.alien_bomb_speed *= self.speed_up_scale

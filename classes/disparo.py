@@ -41,6 +41,8 @@ class Disparo(Sprite):
         if ship.stats.ships_left == 1 and self.last_life == False:
             self.rect_image = pygame.transform.scale(self.rect_image, (16*2, 16*2))
             self.rect.centerx = ship.rect.centerx - self.rect.width / 2
+            self.rect.width *= 2
+            self.rect.height *= 2
             self.last_life = True
         self.screen.blit(self.rect_image, self.rect)
 
