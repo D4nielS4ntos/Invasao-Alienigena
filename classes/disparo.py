@@ -11,7 +11,7 @@ class Disparo(Sprite):
         self.screen = screen
         # self.ship = ship
         # Posição
-        self.rect_image = pygame.image.load('imagens/Disparo_2.png').convert()
+        self.rect_image = pygame.image.load('imagens/disparo_2.png')
         self.rect = self.rect_image.get_rect()
         # self.rect_image = pygame.transform.scale(self.rect_image, (16*1, 16*1))
         # self.rect_x = self.rect_image.get_width()
@@ -37,7 +37,6 @@ class Disparo(Sprite):
     
     def drawn_shot(self, ship):
     # Desenha o disparo na tela
-        # pygame.draw.rect(self.screen, self.color, self.rect)
         if ship.stats.ships_left == 1 and self.last_life == False:
             self.rect_image = pygame.transform.scale(self.rect_image, (16*2, 16*2))
             self.rect.centerx = ship.rect.centerx - self.rect.width / 2
@@ -52,7 +51,7 @@ class Disparo_alienigena(Disparo):
         super().__init__(ai_settings, screen, ship)
         self.screen = screen
         # Posição
-        self.rect_image = pygame.image.load('imagens/Disparo_alienigena_2.png')
+        self.rect_image = pygame.image.load('imagens/disparo_alienigena_2.png')
         self.rect = self.rect_image.get_rect() #pygame.Rect(0, 0, ai_settings.alien_bullet_width, ai_settings.alien_bullet_height)
         self.screen_rect = screen.get_rect()
         self.x = float(self.rect.x)

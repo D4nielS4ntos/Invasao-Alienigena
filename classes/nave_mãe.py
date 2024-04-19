@@ -11,12 +11,13 @@ class Navemae(Sprite):
         self.screen = screen
         self.stats = stats
         # Imagem
-        self.image = pygame.image.load('imagens/alienigena2_225x225.bmp')
+        self.image = pygame.image.load('imagens/nave_mãe/nave mãe.png')
+        self.image = pygame.transform.scale(self.image, (64, 64))
         self.rect_mother_ship = self.image.get_rect()
-        self.question_image_A = pygame.image.load('imagens/Nave_mãe/Letra A.png')
-        self.question_image_B = pygame.image.load('imagens/Nave_mãe/Letra B.png')
-        self.question_image_C = pygame.image.load('imagens/Nave_mãe/Letra C.png')
-        self.question_image_D = pygame.image.load('imagens/Nave_mãe/Letra D.png')
+        self.question_image_A = pygame.image.load('imagens/nave_mãe/letra A.png')
+        self.question_image_B = pygame.image.load('imagens/nave_mãe/letra B.png')
+        self.question_image_C = pygame.image.load('imagens/nave_mãe/letra C.png')
+        self.question_image_D = pygame.image.load('imagens/nave_mãe/letra D.png')
         self.screen_rect = screen.get_rect()
         self.rect_mother_ship.centerx = self.screen_rect.centerx
         self.rect_mother_ship.top = self.screen_rect.top + 100
@@ -28,20 +29,20 @@ class Navemae(Sprite):
         # Imagem questões
         # A
         self.qa_rect = self.question_image_A.get_rect()
-        self.qa_rect.centerx = self.rect_mother_ship.centerx - self.rect_mother_ship.height*5
-        self.qa_rect.bottom = self.rect_mother_ship.bottom + self.rect_mother_ship.height*2
+        # self.qa_rect.centerx = self.rect_mother_ship.centerx - self.qa_rect.height*5
+        self.qa_rect.bottom = self.rect_mother_ship.bottom + self.qa_rect.height*2
         # B
         self.qb_rect = self.question_image_B.get_rect()
-        self.qb_rect.centerx = self.rect_mother_ship.centerx - self.rect_mother_ship.height*2
-        self.qb_rect.bottom = self.rect_mother_ship.bottom + self.rect_mother_ship.height*2
+        # self.qb_rect.centerx = self.rect_mother_ship.centerx - self.qb_rect.height*2
+        self.qb_rect.bottom = self.rect_mother_ship.bottom + self.qb_rect.height*2
         # C
         self.qc_rect = self.question_image_C.get_rect()
-        self.qc_rect.centerx = self.rect_mother_ship.centerx + self.rect_mother_ship.height*2
-        self.qc_rect.bottom = self.rect_mother_ship.bottom + self.rect_mother_ship.height*2
+        # self.qc_rect.centerx = self.rect_mother_ship.centerx + self.qc_rect.height*2
+        self.qc_rect.bottom = self.rect_mother_ship.bottom + self.qc_rect.height*2
         # D
         self.qd_rect = self.question_image_D.get_rect()
-        self.qd_rect.centerx = self.rect_mother_ship.centerx + self.rect_mother_ship.height*5
-        self.qd_rect.bottom = self.rect_mother_ship.bottom + self.rect_mother_ship.height*2
+        # self.qd_rect.centerx = self.rect_mother_ship.centerx + self.qd_rect.height*5
+        self.qd_rect.bottom = self.rect_mother_ship.bottom + self.qd_rect.height*2
 
     def show(self):
     # Mostra a nave na tela
@@ -58,10 +59,10 @@ class Navemae(Sprite):
     def update(self):
     # Atualiza a posição da nave
         self.rect_mother_ship.centerx += (self.ai_settings.mothership_speed_factor * self.direction)
-        self.qa_rect.centerx = self.rect_mother_ship.centerx - self.rect_mother_ship.height*5
-        self.qb_rect.centerx = self.rect_mother_ship.centerx - self.rect_mother_ship.height*2
-        self.qc_rect.centerx = self.rect_mother_ship.centerx + self.rect_mother_ship.height*2
-        self.qd_rect.centerx = self.rect_mother_ship.centerx + self.rect_mother_ship.height*5
+        self.qa_rect.centerx = self.rect_mother_ship.centerx - self.qa_rect.height*5
+        self.qb_rect.centerx = self.rect_mother_ship.centerx - self.qb_rect.height*2
+        self.qc_rect.centerx = self.rect_mother_ship.centerx + self.qc_rect.height*2
+        self.qd_rect.centerx = self.rect_mother_ship.centerx + self.qd_rect.height*5
 
     def check_sides(self):
         # Vê se o alienigena está em tocando um dos lados

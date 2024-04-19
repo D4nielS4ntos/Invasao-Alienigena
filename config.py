@@ -36,12 +36,15 @@ class Config:
         self.aliens = False 
         self.bombs = False 
         self.questions = False
+    # Configurações de situação
+        self.time_of_question = False
         self.answer = False
+        self.death_ray = False
     # Configurações de aumentos do jogo
         self.speed_up_scale = 1.1
         self.score_scale = 1.5
         self.alien_points = 50
-        self.bomb_points = 50
+        self.bomb_points = 100
         self.level = 1
         self.initialize_dynamic_settings()
     # Configurações botão e tabela de pontos
@@ -55,28 +58,33 @@ class Config:
     # Configurações da ship
         self.ship_speed_factor = 1.5
     # Configurações do disparo
-        self.bullet_width = 3 #*100
-        self.bullet_height = 15
         self.bullet_color = (230, 230, 230)
         self.bullets_allowed = 3
         self.bullet_speed_factor = 2
     # Configurações da frota
         self.alien_speed_factor = 1
         self.alien_speed_in_stage_game = 1
-        self.alien_speed_factor = 1
-        self.alien_bomb_speed = 0.5
+        self.fleet_drop_speed = 10*3
+        self.fleet_direction = 1
+        self.alien_bomb_speedx = 0.75
+        self.alien_bomb_speedy = 1.75
+        self.bombs_in_stage = 0
+        self.mothership_speed_factor = 1
     # Configurações de aumentos do jogo
         self.speed_up_scale = 1.1
         self.alien_points = 50
+        self.bomb_points = 100
+        self.level = 1
         
 
     def increase_speed(self): 
         # A velocidade para de aumentar a partir do level 10
         if self.level <= 10: 
             self.alien_speed_factor *= self.speed_up_scale
-            self.alien_bomb_speed *= self.speed_up_scale
+            self.alien_bomb_speedy *= self.speed_up_scale
             self.mothership_speed_factor *= self.speed_up_scale
             self.alien_points = int(self.alien_points * self.score_scale)
+            self.bomb_points = int(self.bomb_points * self.score_scale)
             self.alien_speed_in_stage_game *= self.speed_up_scale # Velocidade que inicia o nível
             # self.alien_bomb_speed *= self.speed_up_scale
             self.level += 1

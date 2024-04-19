@@ -1,7 +1,5 @@
 {
-    "numero_testes": 318,
-    "pontuacao_maxima": 21860,
-    "pontuacao_maxima_nome": "AAA",
+    "numero_testes": 559,
     "placar": [
         {
             "pontuacao_maxima": 0,
@@ -16,12 +14,92 @@
             "pontuacao_maxima_nome": ""
         },
         {
+            "pontuacao_maxima": 0,
+            "pontuacao_maxima_nome": "D"
+        },
+        {
+            "pontuacao_maxima": 50,
+            "pontuacao_maxima_nome": "O"
+        },
+        {
+            "pontuacao_maxima": 50,
+            "pontuacao_maxima_nome": "AD"
+        },
+        {
+            "pontuacao_maxima": 50,
+            "pontuacao_maxima_nome": "AAY"
+        },
+        {
+            "pontuacao_maxima": 300,
+            "pontuacao_maxima_nome": "R"
+        },
+        {
             "pontuacao_maxima": 400,
             "pontuacao_maxima_nome": "A"
         },
         {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "NF"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "A"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "GSD"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "AAG"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "AKL"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "FHD"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "DA"
+        },
+        {
+            "pontuacao_maxima": 400,
+            "pontuacao_maxima_nome": "AS"
+        },
+        {
+            "pontuacao_maxima": 450,
+            "pontuacao_maxima_nome": "AS"
+        },
+        {
+            "pontuacao_maxima": 450,
+            "pontuacao_maxima_nome": "ASB"
+        },
+        {
+            "pontuacao_maxima": 500,
+            "pontuacao_maxima_nome": "D"
+        },
+        {
+            "pontuacao_maxima": 1100,
+            "pontuacao_maxima_nome": "SD"
+        },
+        {
+            "pontuacao_maxima": 1100,
+            "pontuacao_maxima_nome": "S"
+        },
+        {
+            "pontuacao_maxima": 1224,
+            "pontuacao_maxima_nome": "G"
+        },
+        {
             "pontuacao_maxima": 1300,
             "pontuacao_maxima_nome": "C"
+        },
+        {
+            "pontuacao_maxima": 1375,
+            "pontuacao_maxima_nome": "AE"
         },
         {
             "pontuacao_maxima": 1550,
@@ -32,8 +110,72 @@
             "pontuacao_maxima_nome": "AAAAAAAAAAAAA"
         },
         {
-            "pontuacao_maxima": 21860,
+            "pontuacao_maxima": 2792,
+            "pontuacao_maxima_nome": "JL"
+        },
+        {
+            "pontuacao_maxima": 2892,
+            "pontuacao_maxima_nome": "ASE"
+        },
+        {
+            "pontuacao_maxima": 2892,
+            "pontuacao_maxima_nome": "A"
+        },
+        {
+            "pontuacao_maxima": 2942,
+            "pontuacao_maxima_nome": "JA"
+        },
+        {
+            "pontuacao_maxima": 2954,
+            "pontuacao_maxima_nome": "HA"
+        },
+        {
+            "pontuacao_maxima": 3092,
+            "pontuacao_maxima_nome": "A"
+        },
+        {
+            "pontuacao_maxima": 3192,
+            "pontuacao_maxima_nome": "ASD"
+        },
+        {
+            "pontuacao_maxima": 4000,
+            "pontuacao_maxima_nome": "JL"
+        },
+        {
+            "pontuacao_maxima": 4500,
+            "pontuacao_maxima_nome": "PP"
+        },
+        {
+            "pontuacao_maxima": 5000,
+            "pontuacao_maxima_nome": "FA"
+        },
+        {
+            "pontuacao_maxima": 5500,
+            "pontuacao_maxima_nome": "UI"
+        },
+        {
+            "pontuacao_maxima": 6000,
             "pontuacao_maxima_nome": "AAA"
+        },
+        {
+            "pontuacao_maxima": 6500,
+            "pontuacao_maxima_nome": "TF"
+        },
+        {
+            "pontuacao_maxima": 7000,
+            "pontuacao_maxima_nome": "AS"
+        },
+        {
+            "pontuacao_maxima": 7500,
+            "pontuacao_maxima_nome": "KL"
+        },
+        {
+            "pontuacao_maxima": 11578,
+            "pontuacao_maxima_nome": "ADD"
+        },
+        {
+            "pontuacao_maxima": 13114,
+            "pontuacao_maxima_nome": "A"
         }
     ]
 }

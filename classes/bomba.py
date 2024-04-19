@@ -12,7 +12,7 @@ class Bomba(Sprite):
         self.ai_settings = ai_settings
         self.ship = ship
         # Imagem
-        self.image = pygame.image.load('imagens/Bomba.png')
+        self.image = pygame.image.load('imagens/bomba.png')
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.width 
         self.rect.y = self.rect.height

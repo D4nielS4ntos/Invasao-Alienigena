@@ -39,7 +39,7 @@ def run_game():
             shots.update()
             alien_shots.update()
             mother_ship.update()
-            f.shots_update(ai_settings, screen, shots, aliens, alien_bombs, ship, stats, table_of_points, alien_shots, mother_ship )
+            f.shots_update(ai_settings, screen, shots, aliens, alien_bombs, ship, stats, table_of_points, alien_shots)
             f.aliens_update(ai_settings, stats, screen, ship, aliens, alien_bombs, shots, table_of_points, alien_shots, mother_ship)
         f.screen_update(ai_settings, screen, ship, shots, aliens, alien_bombs, stats, play_button, table_of_points, alien_shots, mother_ship)
 run_game() 

@@ -29,8 +29,6 @@ class TabelaPontos:
         self.prep_level()
         self.prep_ships()
         self.prep_name()
-        self.prep_question()
-        self.prep_answers()
         self.prep_menu()
 
     def prep_score(self):
@@ -89,7 +87,7 @@ class TabelaPontos:
                 self.ships.add(ship)
             else:
                 ship_explosion = Nave(self.ai_settings, self.screen, self.stats)
-                ship_explosion.image = pygame.image.load('imagens/Explosão.png')
+                ship_explosion.image = pygame.image.load('imagens/explosão.png')
                 ship_explosion.rect.x = 10 + ship_number * ship.rect.width
                 ship_explosion.rect.y = 10
                 self.ships.add(ship_explosion)
@@ -207,14 +205,18 @@ class TabelaPontos:
 
         if self.ai_settings.questions == True:
             self.screen.blit(self.question_format, self.question_text_rect)
-            self.screen.blit(self.a_letters_format, self.a_letter_text_rect)
-            self.screen.blit(self.b_letters_format, self.b_letter_text_rect)
-            self.screen.blit(self.c_letters_format, self.c_letter_text_rect)
-            self.screen.blit(self.d_letters_format, self.d_letter_text_rect)
-            self.screen.blit(self.a_answers_format, self.a_answers_text_rect)
-            self.screen.blit(self.b_answers_format, self.b_answers_text_rect)
-            self.screen.blit(self.c_answers_format, self.c_answers_text_rect)
-            self.screen.blit(self.d_answers_format, self.d_answers_text_rect)
+            if self.ai_settings.time_of_question == False:
+                self.stats.time_of_question_set = self.stats.current_time
+                self.ai_settings.time_of_question = True
+            if self.stats.current_time < self.stats.time_of_question_set + 10:
+                self.screen.blit(self.a_letters_format, self.a_letter_text_rect)
+                self.screen.blit(self.b_letters_format, self.b_letter_text_rect)
+                self.screen.blit(self.c_letters_format, self.c_letter_text_rect)
+                self.screen.blit(self.d_letters_format, self.d_letter_text_rect)
+                self.screen.blit(self.a_answers_format, self.a_answers_text_rect)
+                self.screen.blit(self.b_answers_format, self.b_answers_text_rect)
+                self.screen.blit(self.c_answers_format, self.c_answers_text_rect)
+                self.screen.blit(self.d_answers_format, self.d_answers_text_rect)
 
         if self.stats.game_active == True:
             self.screen.blit(self.timer_format, self.timer_text_rect)

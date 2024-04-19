@@ -14,7 +14,7 @@ class Nave(Sprite):
         self.stats = stats
         # Imagem
         self.current_image_index = 0
-        self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.current_image_index)}.png')
+        self.image = pygame.image.load(f'imagens/nave_32x32/sprite_0{int(self.current_image_index)}.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.centerx = self.screen_rect.centerx
@@ -36,9 +36,9 @@ class Nave(Sprite):
         if self.current_image_index > 15:
             self.current_image_index = 0
         elif self.current_image_index >= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_{int(self.current_image_index)}.png').convert()
+            self.image = pygame.image.load(f'imagens/nave_32x32/sprite_{int(self.current_image_index)}.png')
         elif self.current_image_index <= 10:
-            self.image = pygame.image.load(f'imagens/Nave_32x32/sprite_0{int(self.current_image_index)}.png').convert()
+            self.image = pygame.image.load(f'imagens/nave_32x32/sprite_0{int(self.current_image_index)}.png')
         else:
             print('ERROR')
         

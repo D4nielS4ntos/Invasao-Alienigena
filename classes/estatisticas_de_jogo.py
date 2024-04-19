@@ -1,21 +1,21 @@
 import json
 from random import choice
-# import time
-
+from operator import itemgetter
 
 class GameStats:
 # Armazena dados sobre o jogo
     def __init__(self, ai_settings):
         self.ai_settings = ai_settings
-        self.reset_stats()
-        self.game_active = False
         self.level = ai_settings.level
+        self.game_active = False
         self.score = 0
         self.bullet_shots = 0
         self.alien_deaths = 0
         self.name = 'digite seu nome...'
         self.initial_time = 0
         self.current_time = 0
+        self.time_of_question_set = 0
+        self.reset_stats()
 
     def reset_stats(self):
         self.ships_left = self.ai_settings.ship_limit
@@ -23,35 +23,41 @@ class GameStats:
         self.score = 0
         self.bullet_shots = 0
         self.alien_deaths = 0
+        self.alien_deaths = 0
+        self.initial_time = 0
+        self.current_time = 0
+        self.time_of_question_set = 0
 
         json_arquive = open('tabela.json')
-        json_table = json.load(json_arquive)
-        self.high_score_name = json_table['placar'][-1]['pontuacao_maxima_nome']
-        self.second_high_score_name = json_table['placar'][-2]['pontuacao_maxima_nome']
-        self.third_high_score_name = json_table['placar'][-3]['pontuacao_maxima_nome']
-        self.high_score = json_table['pontuacao_maxima']
-        self.second_high_score = json_table['placar'][-2]['pontuacao_maxima']
-        self.third_high_score = json_table['placar'][-3]['pontuacao_maxima']
+        self.json_table = json.load(json_arquive)
+        self.high_score_name = self.json_table['placar'][-1]['pontuacao_maxima_nome']
+        self.second_high_score_name = self.json_table['placar'][-2]['pontuacao_maxima_nome']
+        self.third_high_score_name = self.json_table['placar'][-3]['pontuacao_maxima_nome']
+
+        self.high_score = self.json_table['placar'][-1]['pontuacao_maxima']
+        self.second_high_score = self.json_table['placar'][-2]['pontuacao_maxima']
+        self.third_high_score = self.json_table['placar'][-3]['pontuacao_maxima']
         
+        self.reset_questions()
+
+    def reset_questions(self):
         json_questions_arquive = open('perguntas.json')
-        json_questions_table = json.load(json_questions_arquive)
-        self.number_of_questions = len(json_questions_table['perguntas'])
+        self.json_questions_table = json.load(json_questions_arquive)
+        self.number_of_questions = len(self.json_questions_table['perguntas'])
         self.list_numbers_of_questions = list(range(self.number_of_questions))
         self.current_question = choice(self.list_numbers_of_questions)
 
     def register_json_table(self):
         # faz parte de register_json_table
-        placar = {
+        result = {
             'pontuacao_maxima': self.score,
             'pontuacao_maxima_nome': self.name.upper()
         }
         with open('tabela.json') as json_arquive:
             json_table = json.load(json_arquive)
             json_table['numero_testes'] += 1
-            if self.score > json_table['pontuacao_maxima']: 
-                json_table['pontuacao_maxima'] = self.score
-                json_table['pontuacao_maxima_nome'] = self.name.upper()
-                json_table['placar'].append(placar)
+            json_table['placar'].append(result)
+            json_table['placar'].sort(key=itemgetter('pontuacao_maxima'))
             json_table = json.dumps(json_table, indent=4)
         json_arquive = open('tabela.json', 'wt')
         json_arquive.write(json_table)

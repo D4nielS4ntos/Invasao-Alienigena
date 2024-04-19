@@ -2441,3 +2441,2172 @@ Alienigenas mortos: 41
 Tiros disparados: 73
 Tempo gasto 52.89
 ----------------------------------------
+----------------------------------------
+Numero do teste: 319
+Nome: A
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 21
+Tempo gasto 52.58
+----------------------------------------
+----------------------------------------
+Numero do teste: 320
+Nome: A
+Nivel: 4
+Pontuacao alcancada: 5480
+Alienigenas mortos: 48
+Tiros disparados: 92
+Tempo gasto 107.64
+----------------------------------------
+----------------------------------------
+Numero do teste: 321
+Nome: A
+Nivel: 6
+Pontuacao alcancada: 16064
+Alienigenas mortos: 84
+Tiros disparados: 167
+Tempo gasto 90.1
+----------------------------------------
+----------------------------------------
+Numero do teste: 322
+Nome: NF
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 10.36
+----------------------------------------
+----------------------------------------
+Numero do teste: 323
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 162.54
+----------------------------------------
+----------------------------------------
+Numero do teste: 324
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 167.17
+----------------------------------------
+----------------------------------------
+Numero do teste: 325
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 167.75
+----------------------------------------
+----------------------------------------
+Numero do teste: 326
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 168.09
+----------------------------------------
+----------------------------------------
+Numero do teste: 327
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 168.28
+----------------------------------------
+----------------------------------------
+Numero do teste: 328
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 14
+Tempo gasto 168.44
+----------------------------------------
+----------------------------------------
+Numero do teste: 329
+Nome: HA
+Nivel: 3
+Pontuacao alcancada: 2954
+Alienigenas mortos: 34
+Tiros disparados: 57
+Tempo gasto 52.83
+----------------------------------------
+----------------------------------------
+Numero do teste: 330
+Nome: A
+Nivel: 3
+Pontuacao alcancada: 3092
+Alienigenas mortos: 38
+Tiros disparados: 80
+Tempo gasto 72.14
+----------------------------------------
+----------------------------------------
+Numero do teste: 331
+Nome: DIGITE SEU NOME...
+Nivel: 3
+Pontuacao alcancada: 3204
+Alienigenas mortos: 39
+Tiros disparados: 80
+Tempo gasto 88.83
+----------------------------------------
+----------------------------------------
+Numero do teste: 332
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 200
+Alienigenas mortos: 4
+Tiros disparados: 5
+Tempo gasto 8.99
+----------------------------------------
+----------------------------------------
+Numero do teste: 333
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+Tempo gasto 9.66
+----------------------------------------
+----------------------------------------
+Numero do teste: 334
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 200
+Alienigenas mortos: 4
+Tiros disparados: 4
+Tempo gasto 12.03
+----------------------------------------
+----------------------------------------
+Numero do teste: 335
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 100
+Alienigenas mortos: 2
+Tiros disparados: 3
+Tempo gasto 9.7
+----------------------------------------
+----------------------------------------
+Numero do teste: 336
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.61
+----------------------------------------
+----------------------------------------
+Numero do teste: 337
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.62
+----------------------------------------
+----------------------------------------
+Numero do teste: 338
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.64
+----------------------------------------
+----------------------------------------
+Numero do teste: 339
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.65
+----------------------------------------
+----------------------------------------
+Numero do teste: 340
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.66
+----------------------------------------
+----------------------------------------
+Numero do teste: 341
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.67
+----------------------------------------
+----------------------------------------
+Numero do teste: 342
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.68
+----------------------------------------
+----------------------------------------
+Numero do teste: 343
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.7
+----------------------------------------
+----------------------------------------
+Numero do teste: 344
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.71
+----------------------------------------
+----------------------------------------
+Numero do teste: 345
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.72
+----------------------------------------
+----------------------------------------
+Numero do teste: 346
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.73
+----------------------------------------
+----------------------------------------
+Numero do teste: 347
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.74
+----------------------------------------
+----------------------------------------
+Numero do teste: 348
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.76
+----------------------------------------
+----------------------------------------
+Numero do teste: 349
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.78
+----------------------------------------
+----------------------------------------
+Numero do teste: 350
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.79
+----------------------------------------
+----------------------------------------
+Numero do teste: 351
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.8
+----------------------------------------
+----------------------------------------
+Numero do teste: 352
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.81
+----------------------------------------
+----------------------------------------
+Numero do teste: 353
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.82
+----------------------------------------
+----------------------------------------
+Numero do teste: 354
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.84
+----------------------------------------
+----------------------------------------
+Numero do teste: 355
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.85
+----------------------------------------
+----------------------------------------
+Numero do teste: 356
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.86
+----------------------------------------
+----------------------------------------
+Numero do teste: 357
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.87
+----------------------------------------
+----------------------------------------
+Numero do teste: 358
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.88
+----------------------------------------
+----------------------------------------
+Numero do teste: 359
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.89
+----------------------------------------
+----------------------------------------
+Numero do teste: 360
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.9
+----------------------------------------
+----------------------------------------
+Numero do teste: 361
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.92
+----------------------------------------
+----------------------------------------
+Numero do teste: 362
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.93
+----------------------------------------
+----------------------------------------
+Numero do teste: 363
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.94
+----------------------------------------
+----------------------------------------
+Numero do teste: 364
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.95
+----------------------------------------
+----------------------------------------
+Numero do teste: 365
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.96
+----------------------------------------
+----------------------------------------
+Numero do teste: 366
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.97
+----------------------------------------
+----------------------------------------
+Numero do teste: 367
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.98
+----------------------------------------
+----------------------------------------
+Numero do teste: 368
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 16.99
+----------------------------------------
+----------------------------------------
+Numero do teste: 369
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.01
+----------------------------------------
+----------------------------------------
+Numero do teste: 370
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.02
+----------------------------------------
+----------------------------------------
+Numero do teste: 371
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.03
+----------------------------------------
+----------------------------------------
+Numero do teste: 372
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.04
+----------------------------------------
+----------------------------------------
+Numero do teste: 373
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.06
+----------------------------------------
+----------------------------------------
+Numero do teste: 374
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.07
+----------------------------------------
+----------------------------------------
+Numero do teste: 375
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.08
+----------------------------------------
+----------------------------------------
+Numero do teste: 376
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.09
+----------------------------------------
+----------------------------------------
+Numero do teste: 377
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.1
+----------------------------------------
+----------------------------------------
+Numero do teste: 378
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.11
+----------------------------------------
+----------------------------------------
+Numero do teste: 379
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.12
+----------------------------------------
+----------------------------------------
+Numero do teste: 380
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.14
+----------------------------------------
+----------------------------------------
+Numero do teste: 381
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.15
+----------------------------------------
+----------------------------------------
+Numero do teste: 382
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.16
+----------------------------------------
+----------------------------------------
+Numero do teste: 383
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.95
+----------------------------------------
+----------------------------------------
+Numero do teste: 384
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.96
+----------------------------------------
+----------------------------------------
+Numero do teste: 385
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.97
+----------------------------------------
+----------------------------------------
+Numero do teste: 386
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 17.99
+----------------------------------------
+----------------------------------------
+Numero do teste: 387
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.0
+----------------------------------------
+----------------------------------------
+Numero do teste: 388
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.01
+----------------------------------------
+----------------------------------------
+Numero do teste: 389
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.02
+----------------------------------------
+----------------------------------------
+Numero do teste: 390
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.03
+----------------------------------------
+----------------------------------------
+Numero do teste: 391
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.05
+----------------------------------------
+----------------------------------------
+Numero do teste: 392
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.06
+----------------------------------------
+----------------------------------------
+Numero do teste: 393
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.07
+----------------------------------------
+----------------------------------------
+Numero do teste: 394
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.08
+----------------------------------------
+----------------------------------------
+Numero do teste: 395
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.09
+----------------------------------------
+----------------------------------------
+Numero do teste: 396
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.11
+----------------------------------------
+----------------------------------------
+Numero do teste: 397
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.12
+----------------------------------------
+----------------------------------------
+Numero do teste: 398
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.16
+----------------------------------------
+----------------------------------------
+Numero do teste: 399
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.21
+----------------------------------------
+----------------------------------------
+Numero do teste: 400
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.22
+----------------------------------------
+----------------------------------------
+Numero do teste: 401
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.26
+----------------------------------------
+----------------------------------------
+Numero do teste: 402
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.27
+----------------------------------------
+----------------------------------------
+Numero do teste: 403
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.28
+----------------------------------------
+----------------------------------------
+Numero do teste: 404
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.3
+----------------------------------------
+----------------------------------------
+Numero do teste: 405
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.31
+----------------------------------------
+----------------------------------------
+Numero do teste: 406
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.32
+----------------------------------------
+----------------------------------------
+Numero do teste: 407
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.33
+----------------------------------------
+----------------------------------------
+Numero do teste: 408
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.34
+----------------------------------------
+----------------------------------------
+Numero do teste: 409
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.35
+----------------------------------------
+----------------------------------------
+Numero do teste: 410
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.36
+----------------------------------------
+----------------------------------------
+Numero do teste: 411
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.37
+----------------------------------------
+----------------------------------------
+Numero do teste: 412
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.39
+----------------------------------------
+----------------------------------------
+Numero do teste: 413
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.4
+----------------------------------------
+----------------------------------------
+Numero do teste: 414
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.42
+----------------------------------------
+----------------------------------------
+Numero do teste: 415
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.43
+----------------------------------------
+----------------------------------------
+Numero do teste: 416
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.45
+----------------------------------------
+----------------------------------------
+Numero do teste: 417
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.46
+----------------------------------------
+----------------------------------------
+Numero do teste: 418
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.47
+----------------------------------------
+----------------------------------------
+Numero do teste: 419
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.48
+----------------------------------------
+----------------------------------------
+Numero do teste: 420
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.49
+----------------------------------------
+----------------------------------------
+Numero do teste: 421
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.51
+----------------------------------------
+----------------------------------------
+Numero do teste: 422
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.52
+----------------------------------------
+----------------------------------------
+Numero do teste: 423
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.53
+----------------------------------------
+----------------------------------------
+Numero do teste: 424
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.54
+----------------------------------------
+----------------------------------------
+Numero do teste: 425
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.56
+----------------------------------------
+----------------------------------------
+Numero do teste: 426
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.57
+----------------------------------------
+----------------------------------------
+Numero do teste: 427
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.58
+----------------------------------------
+----------------------------------------
+Numero do teste: 428
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.59
+----------------------------------------
+----------------------------------------
+Numero do teste: 429
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 18.61
+----------------------------------------
+----------------------------------------
+Numero do teste: 430
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.03
+----------------------------------------
+----------------------------------------
+Numero do teste: 431
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.04
+----------------------------------------
+----------------------------------------
+Numero do teste: 432
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.05
+----------------------------------------
+----------------------------------------
+Numero do teste: 433
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.06
+----------------------------------------
+----------------------------------------
+Numero do teste: 434
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.08
+----------------------------------------
+----------------------------------------
+Numero do teste: 435
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.09
+----------------------------------------
+----------------------------------------
+Numero do teste: 436
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.1
+----------------------------------------
+----------------------------------------
+Numero do teste: 437
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.12
+----------------------------------------
+----------------------------------------
+Numero do teste: 438
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.13
+----------------------------------------
+----------------------------------------
+Numero do teste: 439
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.15
+----------------------------------------
+----------------------------------------
+Numero do teste: 440
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.16
+----------------------------------------
+----------------------------------------
+Numero do teste: 441
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.17
+----------------------------------------
+----------------------------------------
+Numero do teste: 442
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.18
+----------------------------------------
+----------------------------------------
+Numero do teste: 443
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.19
+----------------------------------------
+----------------------------------------
+Numero do teste: 444
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.2
+----------------------------------------
+----------------------------------------
+Numero do teste: 445
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.21
+----------------------------------------
+----------------------------------------
+Numero do teste: 446
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.22
+----------------------------------------
+----------------------------------------
+Numero do teste: 447
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.24
+----------------------------------------
+----------------------------------------
+Numero do teste: 448
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.25
+----------------------------------------
+----------------------------------------
+Numero do teste: 449
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.27
+----------------------------------------
+----------------------------------------
+Numero do teste: 450
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.28
+----------------------------------------
+----------------------------------------
+Numero do teste: 451
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.29
+----------------------------------------
+----------------------------------------
+Numero do teste: 452
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.3
+----------------------------------------
+----------------------------------------
+Numero do teste: 453
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.32
+----------------------------------------
+----------------------------------------
+Numero do teste: 454
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.33
+----------------------------------------
+----------------------------------------
+Numero do teste: 455
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.34
+----------------------------------------
+----------------------------------------
+Numero do teste: 456
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.35
+----------------------------------------
+----------------------------------------
+Numero do teste: 457
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.37
+----------------------------------------
+----------------------------------------
+Numero do teste: 458
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.38
+----------------------------------------
+----------------------------------------
+Numero do teste: 459
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.39
+----------------------------------------
+----------------------------------------
+Numero do teste: 460
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.4
+----------------------------------------
+----------------------------------------
+Numero do teste: 461
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.42
+----------------------------------------
+----------------------------------------
+Numero do teste: 462
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.43
+----------------------------------------
+----------------------------------------
+Numero do teste: 463
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.44
+----------------------------------------
+----------------------------------------
+Numero do teste: 464
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.45
+----------------------------------------
+----------------------------------------
+Numero do teste: 465
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.47
+----------------------------------------
+----------------------------------------
+Numero do teste: 466
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.48
+----------------------------------------
+----------------------------------------
+Numero do teste: 467
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.49
+----------------------------------------
+----------------------------------------
+Numero do teste: 468
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.51
+----------------------------------------
+----------------------------------------
+Numero do teste: 469
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.52
+----------------------------------------
+----------------------------------------
+Numero do teste: 470
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.53
+----------------------------------------
+----------------------------------------
+Numero do teste: 471
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.54
+----------------------------------------
+----------------------------------------
+Numero do teste: 472
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.55
+----------------------------------------
+----------------------------------------
+Numero do teste: 473
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.57
+----------------------------------------
+----------------------------------------
+Numero do teste: 474
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.58
+----------------------------------------
+----------------------------------------
+Numero do teste: 475
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.6
+----------------------------------------
+----------------------------------------
+Numero do teste: 476
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 20.61
+----------------------------------------
+----------------------------------------
+Numero do teste: 477
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.3
+----------------------------------------
+----------------------------------------
+Numero do teste: 478
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.31
+----------------------------------------
+----------------------------------------
+Numero do teste: 479
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.32
+----------------------------------------
+----------------------------------------
+Numero do teste: 480
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.34
+----------------------------------------
+----------------------------------------
+Numero do teste: 481
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.35
+----------------------------------------
+----------------------------------------
+Numero do teste: 482
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.36
+----------------------------------------
+----------------------------------------
+Numero do teste: 483
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.38
+----------------------------------------
+----------------------------------------
+Numero do teste: 484
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.39
+----------------------------------------
+----------------------------------------
+Numero do teste: 485
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.4
+----------------------------------------
+----------------------------------------
+Numero do teste: 486
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.42
+----------------------------------------
+----------------------------------------
+Numero do teste: 487
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.43
+----------------------------------------
+----------------------------------------
+Numero do teste: 488
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.44
+----------------------------------------
+----------------------------------------
+Numero do teste: 489
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.46
+----------------------------------------
+----------------------------------------
+Numero do teste: 490
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.47
+----------------------------------------
+----------------------------------------
+Numero do teste: 491
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.49
+----------------------------------------
+----------------------------------------
+Numero do teste: 492
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.5
+----------------------------------------
+----------------------------------------
+Numero do teste: 493
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.52
+----------------------------------------
+----------------------------------------
+Numero do teste: 494
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.53
+----------------------------------------
+----------------------------------------
+Numero do teste: 495
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.54
+----------------------------------------
+----------------------------------------
+Numero do teste: 496
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.56
+----------------------------------------
+----------------------------------------
+Numero do teste: 497
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.57
+----------------------------------------
+----------------------------------------
+Numero do teste: 498
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.58
+----------------------------------------
+----------------------------------------
+Numero do teste: 499
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.59
+----------------------------------------
+----------------------------------------
+Numero do teste: 500
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.61
+----------------------------------------
+----------------------------------------
+Numero do teste: 501
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.62
+----------------------------------------
+----------------------------------------
+Numero do teste: 502
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.63
+----------------------------------------
+----------------------------------------
+Numero do teste: 503
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.64
+----------------------------------------
+----------------------------------------
+Numero do teste: 504
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.66
+----------------------------------------
+----------------------------------------
+Numero do teste: 505
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.68
+----------------------------------------
+----------------------------------------
+Numero do teste: 506
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.69
+----------------------------------------
+----------------------------------------
+Numero do teste: 507
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.7
+----------------------------------------
+----------------------------------------
+Numero do teste: 508
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.71
+----------------------------------------
+----------------------------------------
+Numero do teste: 509
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.73
+----------------------------------------
+----------------------------------------
+Numero do teste: 510
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.74
+----------------------------------------
+----------------------------------------
+Numero do teste: 511
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.75
+----------------------------------------
+----------------------------------------
+Numero do teste: 512
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.76
+----------------------------------------
+----------------------------------------
+Numero do teste: 513
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.77
+----------------------------------------
+----------------------------------------
+Numero do teste: 514
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.79
+----------------------------------------
+----------------------------------------
+Numero do teste: 515
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.8
+----------------------------------------
+----------------------------------------
+Numero do teste: 516
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.82
+----------------------------------------
+----------------------------------------
+Numero do teste: 517
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.83
+----------------------------------------
+----------------------------------------
+Numero do teste: 518
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.84
+----------------------------------------
+----------------------------------------
+Numero do teste: 519
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.85
+----------------------------------------
+----------------------------------------
+Numero do teste: 520
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.87
+----------------------------------------
+----------------------------------------
+Numero do teste: 521
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.88
+----------------------------------------
+----------------------------------------
+Numero do teste: 522
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.89
+----------------------------------------
+----------------------------------------
+Numero do teste: 523
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 150
+Alienigenas mortos: 3
+Tiros disparados: 3
+Tempo gasto 22.91
+----------------------------------------
+----------------------------------------
+Numero do teste: 524
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+Tempo gasto 10.2
+----------------------------------------
+----------------------------------------
+Numero do teste: 525
+Nome: DIGITE SEU NOME...
+Nivel: 1
+Pontuacao alcancada: 50
+Alienigenas mortos: 1
+Tiros disparados: 1
+Tempo gasto 10.03
+----------------------------------------
+----------------------------------------
+Numero do teste: 526
+Nome: G
+Nivel: 3
+Pontuacao alcancada: 1224
+Alienigenas mortos: 18
+Tiros disparados: 64
+Tempo gasto 45.18
+----------------------------------------
+----------------------------------------
+Numero do teste: 527
+Nome: O
+Nivel: 1
+Pontuacao alcancada: 50
+Alienigenas mortos: 1
+Tiros disparados: 1
+Tempo gasto 10.05
+----------------------------------------
+----------------------------------------
+Numero do teste: 528
+Nome: PP
+Nivel: 5
+Pontuacao alcancada: 11578
+Alienigenas mortos: 73
+Tiros disparados: 141
+Tempo gasto 87.51
+----------------------------------------
+----------------------------------------
+Numero do teste: 529
+Nome: AS
+Nivel: 11
+Pontuacao alcancada: 51036
+Alienigenas mortos: 216
+Tiros disparados: 319
+Tempo gasto 164.27
+----------------------------------------
+----------------------------------------
+Numero do teste: 530
+Nome: DIGITE SEU NOME...
+Nivel: 11
+Pontuacao alcancada: 51036
+Alienigenas mortos: 216
+Tiros disparados: 319
+Tempo gasto 182.04
+----------------------------------------
+----------------------------------------
+Numero do teste: 531
+Nome: D
+Nivel: 1
+Pontuacao alcancada: 0
+Alienigenas mortos: 0
+Tiros disparados: 0
+Tempo gasto 7.65
+----------------------------------------
+----------------------------------------
+Numero do teste: 532
+Nome: A
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 19
+Tempo gasto 16.13
+----------------------------------------
+----------------------------------------
+Numero do teste: 533
+Nome: TF
+Nivel: 7
+Pontuacao alcancada: 38956
+Alienigenas mortos: 131
+Tiros disparados: 204
+Tempo gasto 125.49
+----------------------------------------
+----------------------------------------
+Numero do teste: 534
+Nome: JL
+Nivel: 4
+Pontuacao alcancada: 5680
+Alienigenas mortos: 52
+Tiros disparados: 123
+Tempo gasto 69.37
+----------------------------------------
+----------------------------------------
+Numero do teste: 535
+Nome: KL
+Nivel: 8
+Pontuacao alcancada: 66244
+Alienigenas mortos: 164
+Tiros disparados: 273
+Tempo gasto 130.49
+----------------------------------------
+----------------------------------------
+Numero do teste: 536
+Nome: UI
+Nivel: 6
+Pontuacao alcancada: 12028
+Alienigenas mortos: 82
+Tiros disparados: 144
+Tempo gasto 67.53
+----------------------------------------
+----------------------------------------
+Numero do teste: 537
+Nome: JA
+Nivel: 4
+Pontuacao alcancada: 2942
+Alienigenas mortos: 35
+Tiros disparados: 69
+Tempo gasto 55.65
+----------------------------------------
+----------------------------------------
+Numero do teste: 538
+Nome: JL
+Nivel: 4
+Pontuacao alcancada: 2792
+Alienigenas mortos: 32
+Tiros disparados: 80
+Tempo gasto 58.75
+----------------------------------------
+----------------------------------------
+Numero do teste: 539
+Nome: SD
+Nivel: 2
+Pontuacao alcancada: 1100
+Alienigenas mortos: 18
+Tiros disparados: 36
+Tempo gasto 27.91
+----------------------------------------
+----------------------------------------
+Numero do teste: 540
+Nome: AS
+Nivel: 1
+Pontuacao alcancada: 450
+Alienigenas mortos: 9
+Tiros disparados: 36
+Tempo gasto 20.61
+----------------------------------------
+----------------------------------------
+Numero do teste: 541
+Nome: ASE
+Nivel: 3
+Pontuacao alcancada: 2892
+Alienigenas mortos: 34
+Tiros disparados: 66
+Tempo gasto 74.97
+----------------------------------------
+----------------------------------------
+Numero do teste: 542
+Nome: GSD
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 30
+Tempo gasto 28.2
+----------------------------------------
+----------------------------------------
+Numero do teste: 543
+Nome: ASB
+Nivel: 1
+Pontuacao alcancada: 450
+Alienigenas mortos: 9
+Tiros disparados: 36
+Tempo gasto 22.46
+----------------------------------------
+----------------------------------------
+Numero do teste: 544
+Nome: AD
+Nivel: 1
+Pontuacao alcancada: 50
+Alienigenas mortos: 1
+Tiros disparados: 2
+Tempo gasto 11.17
+----------------------------------------
+----------------------------------------
+Numero do teste: 545
+Nome: AAG
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 28
+Tempo gasto 23.91
+----------------------------------------
+----------------------------------------
+Numero do teste: 546
+Nome: AAY
+Nivel: 1
+Pontuacao alcancada: 50
+Alienigenas mortos: 1
+Tiros disparados: 2
+Tempo gasto 8.29
+----------------------------------------
+----------------------------------------
+Numero do teste: 547
+Nome: AKL
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 42
+Tempo gasto 29.0
+----------------------------------------
+----------------------------------------
+Numero do teste: 548
+Nome: FHD
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 27
+Tempo gasto 21.79
+----------------------------------------
+----------------------------------------
+Numero do teste: 549
+Nome: S
+Nivel: 2
+Pontuacao alcancada: 1100
+Alienigenas mortos: 18
+Tiros disparados: 48
+Tempo gasto 29.39
+----------------------------------------
+----------------------------------------
+Numero do teste: 550
+Nome: DA
+Nivel: 1
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 32
+Tempo gasto 17.42
+----------------------------------------
+----------------------------------------
+Numero do teste: 551
+Nome: AE
+Nivel: 2
+Pontuacao alcancada: 1375
+Alienigenas mortos: 21
+Tiros disparados: 50
+Tempo gasto 34.18
+----------------------------------------
+----------------------------------------
+Numero do teste: 552
+Nome: FA
+Nivel: 5
+Pontuacao alcancada: 11878
+Alienigenas mortos: 79
+Tiros disparados: 142
+Tempo gasto 110.44
+----------------------------------------
+----------------------------------------
+Numero do teste: 553
+Nome: ASD
+Nivel: 3
+Pontuacao alcancada: 3192
+Alienigenas mortos: 40
+Tiros disparados: 92
+Tempo gasto 66.99
+----------------------------------------
+----------------------------------------
+Numero do teste: 554
+Nome: ADD
+Nivel: 5
+Pontuacao alcancada: 11578
+Alienigenas mortos: 73
+Tiros disparados: 134
+Tempo gasto 225.3
+----------------------------------------
+----------------------------------------
+Numero do teste: 555
+Nome: R
+Nivel: 1
+Pontuacao alcancada: 300
+Alienigenas mortos: 6
+Tiros disparados: 8
+Tempo gasto 11.05
+----------------------------------------
+----------------------------------------
+Numero do teste: 556
+Nome: D
+Nivel: 1
+Pontuacao alcancada: 500
+Alienigenas mortos: 10
+Tiros disparados: 23
+Tempo gasto 12.68
+----------------------------------------
+----------------------------------------
+Numero do teste: 557
+Nome: A
+Nivel: 4
+Pontuacao alcancada: 2892
+Alienigenas mortos: 34
+Tiros disparados: 69
+Tempo gasto 53.29
+----------------------------------------
+----------------------------------------
+Numero do teste: 558
+Nome: A
+Nivel: 5
+Pontuacao alcancada: 13114
+Alienigenas mortos: 79
+Tiros disparados: 148
+Tempo gasto 141.65
+----------------------------------------
+----------------------------------------
+Numero do teste: 559
+Nome: AS
+Nivel: 2
+Pontuacao alcancada: 400
+Alienigenas mortos: 8
+Tiros disparados: 26
+Tempo gasto 24.79
+----------------------------------------
