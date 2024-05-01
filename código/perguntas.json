@@ -1,0 +1,166 @@
+{
+    "perguntas": [ 
+        {
+            "texto_pergunta": "Quanto é: 4 - 2 x (4 + 3)?",
+            "resposta_A": "14",
+            "resposta_B": "11",
+            "resposta_C": "-10",
+            "resposta_D": "7",
+            "resposta_correta": "14"
+        },
+        {
+            "texto_pergunta": "Quem foi o primeiro presidente negro do Brasil?",
+            "resposta_A": "Nelson Rolihlahla Mandela",
+            "resposta_B": "Manuel Deodoro da Fonseca",
+            "resposta_C": "Nilo Procópio Peçanha",
+            "resposta_D": "Barack Hussein Obama",
+            "resposta_correta": "Nilo Procópio Peçanha"
+        },
+        {
+            "texto_pergunta": "Quais as principais características do romantismo?",
+            "resposta_A": "Luz e sombra, temas religiosos",
+            "resposta_B": "Racionalidade, a objetividade e o equilíbrio",
+            "resposta_C": "A percepção da realidade",
+            "resposta_D": "Subjetivismo, excesso sentimental, idealização e fuga da realidade",
+            "resposta_correta": "Subjetivismo, excesso sentimental, idealização e fuga da realidade"
+        },
+        {
+            "texto_pergunta": "Qual desses não é um dos isótopos do hidrogênio?",
+            "resposta_A": "Deutério",
+            "resposta_B": "Trítio",
+            "resposta_C": "Prótio",
+            "resposta_D": "Bário",
+            "resposta_correta": "Bário"
+        },
+        {
+            "texto_pergunta": "Qual dos seguintes filósofos era um idealista?",
+            "resposta_A": "Platão",
+            "resposta_B": "Aristóteles",
+            "resposta_C": "Friedrich Nietzsche",
+            "resposta_D": "Sigmund Freud",
+            "resposta_correta": "Platão"
+        },
+        {
+            "texto_pergunta": "Quem escreveu o primeiro algorítimo?",
+            "resposta_A": "Alan Turing",
+            "resposta_B": "Ada Lovelace",
+            "resposta_C": "John von Neumann",
+            "resposta_D": "Steve Jobs",
+            "resposta_correta": "Ada Lovelace"
+        },
+        {
+            "texto_pergunta": "Qual desses criou a teoria atual da gravidade?",
+            "resposta_A": "Isaac Newton",
+            "resposta_B": "Carl Sagan",
+            "resposta_C": "Albert Einstein",
+            "resposta_D": "Stephen Hawking",
+            "resposta_correta": "Albert Einstein"
+        },
+        {
+            "texto_pergunta": "Qual desses paises fez parte do MercoSul?",
+            "resposta_A": "Bolivia",
+            "resposta_B": "Venezuela",
+            "resposta_C": "Argentina",
+            "resposta_D": "Chile",
+            "resposta_correta": "Venezuela"
+        },
+
+        {
+            "texto_pergunta": "Qual desses é um advérbio de afirmação?",
+            "resposta_A": "Muito",
+            "resposta_B": "Aqui",
+            "resposta_C": "Talvez",
+            "resposta_D": "Sim",
+            "resposta_correta": "Sim"
+        },
+        {
+            "texto_pergunta": "Qual das cifras representa o acorde de Fá?",
+            "resposta_A": "C",
+            "resposta_B": "F",
+            "resposta_C": "D",
+            "resposta_D": "G",
+            "resposta_correta": "F"
+        },
+
+        {
+            "texto_pergunta": "Qual pais possui o terceiro maior território do mundo?",
+            "resposta_A": "China",
+            "resposta_B": "EUA",
+            "resposta_C": "Brasil",
+            "resposta_D": "Canadá",
+            "resposta_correta": "China"
+        },
+        {
+            "texto_pergunta": "Qual dessas combinações de cores forma uma harmonia triádica?",
+            "resposta_A": "Verde, ciano, azul",
+            "resposta_B": "Vermalho, laranja, amarelo",
+            "resposta_C": "Azul, vermelho, amarelo",
+            "resposta_D": "Azul, verde, amarelo",
+            "resposta_correta": "Azul, vermelho, amarelo"
+        },
+        {
+            "texto_pergunta": "Which of those is not a modal verb?",
+            "resposta_A": "doing",
+            "resposta_B": "will",
+            "resposta_C": "would",
+            "resposta_D": "should",
+            "resposta_correta": "doing"
+        },
+        {
+            "texto_pergunta": "Qual dos seguintes termos é um pronome?",
+            "resposta_A": "a",
+            "resposta_B": "mim",
+            "resposta_C": "e",
+            "resposta_D": "para",
+            "resposta_correta": "mim"
+        },
+        {
+            "texto_pergunta": "Quanto é: (5 + 3) + (15 - 8) x 2?",
+            "resposta_A": "30",
+            "resposta_B": "15",
+            "resposta_C": "22",
+            "resposta_D": "32",
+            "resposta_correta": "22"
+        },
+        {
+            "texto_pergunta": "Em qual ano acabou a Segunda Guerra Mundial?",
+            "resposta_A": "1939",
+            "resposta_B": "1955",
+            "resposta_C": "1918",
+            "resposta_D": "1945",
+            "resposta_correta": "1945"
+        },
+        {
+            "texto_pergunta": "Qual dos elementos a seguir é um metal alcalino?",
+            "resposta_A": "K",
+            "resposta_B": "Fe",
+            "resposta_C": "H",
+            "resposta_D": "Au",
+            "resposta_correta": "K"
+        },
+        {
+            "texto_pergunta": "Quem foi o criador da psicanálise?",
+            "resposta_A": "Friedrich Hegel",
+            "resposta_B": "Sigmund Freud",
+            "resposta_C": "Max Weber",
+            "resposta_D": "Carl Jung",
+            "resposta_correta": "Sigmund Freud"
+        },
+        {
+            "texto_pergunta": "Qual propriedade das ondas define se um som é grave ou agudo?",
+            "resposta_A": "Período",
+            "resposta_B": "Amplitude",
+            "resposta_C": "Frequência",
+            "resposta_D": "Velocidade",
+            "resposta_correta": "Frequência"
+        },
+        {
+            "texto_pergunta": "Qual das opções é o nome de uma linguagem de programação?",
+            "resposta_A": "HTML",
+            "resposta_B": "CSS",
+            "resposta_C": "JSON",
+            "resposta_D": "PHP",
+            "resposta_correta": "PHP"
+        }
+    ]
+}
